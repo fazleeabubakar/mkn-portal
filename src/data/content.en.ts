@@ -155,7 +155,7 @@ export const en = {
 
   involvementAreas: [
     {
-      id: 'disaster', title: 'Disaster Management', icon: 'disaster',
+      id: 'disaster', title: 'Disaster Management', icon: 'disaster', image: 'inv-disaster.png',
       summary: "Coordinating Malaysia's response to natural disasters through MKN Directive No. 20 — from floods and landslides to earthquakes and haze.",
       highlights: [
         'Activated 361 flood relief operations during the 2024-2025 monsoon season',
@@ -166,7 +166,7 @@ export const en = {
       tag: 'NADMA', color: '#1d4ed8',
     },
     {
-      id: 'security', title: 'National Security Policy', icon: 'shield',
+      id: 'security', title: 'National Security Policy', icon: 'shield', image: 'inv-security.png',
       summary: 'Formulating comprehensive national security strategies encompassing defence, border integrity, sovereignty, and strategic deterrence.',
       highlights: [
         'Developed the National Security Policy (DAKN) 2021-2025 framework',
@@ -177,7 +177,7 @@ export const en = {
       tag: 'DAKN', color: '#0d2240',
     },
     {
-      id: 'counter-terrorism', title: 'Counter-Terrorism', icon: 'target',
+      id: 'counter-terrorism', title: 'Counter-Terrorism', icon: 'target', image: 'inv-counter-terrorism.png',
       summary: 'Leading whole-of-government efforts to prevent, detect, and respond to terrorism and violent extremism threats.',
       highlights: [
         'Implemented the National Action Plan for Preventing & Countering Violent Extremism (PCVE)',
@@ -188,7 +188,7 @@ export const en = {
       tag: 'PCVE', color: '#b91c1c',
     },
     {
-      id: 'cybersecurity', title: 'Cybersecurity', icon: 'cyber',
+      id: 'cybersecurity', title: 'Cybersecurity', icon: 'cyber', image: 'inv-cybersecurity.png',
       summary: "Safeguarding Malaysia's digital infrastructure and critical national information infrastructure (CNII) from evolving cyber threats.",
       highlights: [
         'Protected 412 Critical National Information Infrastructure entities',
@@ -199,7 +199,7 @@ export const en = {
       tag: 'CNII', color: '#6d28d9',
     },
     {
-      id: 'crisis', title: 'Crisis & Emergency Response', icon: 'alert',
+      id: 'crisis', title: 'Crisis & Emergency Response', icon: 'alert', image: 'inv-crisis.png',
       summary: 'Operating a 24/7 National Security Council Operations Centre (PKTN) for real-time situational awareness and crisis coordination.',
       highlights: [
         'Maintained round-the-clock operations through PKTN since 2003',
@@ -210,7 +210,7 @@ export const en = {
       tag: 'PKTN', color: '#c2410c',
     },
     {
-      id: 'public-safety', title: 'Public Safety & Awareness', icon: 'community',
+      id: 'public-safety', title: 'Public Safety & Awareness', icon: 'community', image: 'inv-public-safety.png',
       summary: 'Empowering communities through public safety education, national resilience programmes, and citizen preparedness initiatives.',
       highlights: [
         'Reached 2.3 million citizens through the National Resilience Programme',

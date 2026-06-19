@@ -43,13 +43,15 @@ export function InvolvementHighlights() {
           {involvementAreas.map((area, i) => (
             activeTab === i && (
               <div key={area.id} className="inv-detail fade-in-up" style={{ animationDuration: '0.4s' }}>
-                <div className="inv-detail-header" style={{ background: `linear-gradient(135deg, ${area.color}, ${area.color}dd)` }}>
-                  <div className="inv-detail-icon-wrap">
-                    <Icon name={area.icon} size={32} color="#fff" />
-                  </div>
-                  <div className="inv-detail-titles">
-                    <span className="inv-detail-tag">{area.tag}</span>
-                    <h3>{area.title}</h3>
+                <div className="inv-detail-header" style={{ backgroundImage: `linear-gradient(135deg, ${area.color}ee, ${area.color}bb), url(${import.meta.env.BASE_URL}${area.image})` }}>
+                  <div className="inv-detail-header-content">
+                    <div className="inv-detail-icon-wrap">
+                      <Icon name={area.icon} size={32} color="#fff" />
+                    </div>
+                    <div className="inv-detail-titles">
+                      <span className="inv-detail-tag">{area.tag}</span>
+                      <h3>{area.title}</h3>
+                    </div>
                   </div>
                 </div>
 
@@ -89,14 +91,19 @@ export function InvolvementHighlights() {
                 document.getElementById('involvement')?.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              <div className="inv-overview-icon" style={{ background: `${area.color}15`, color: area.color }}>
-                <Icon name={area.icon} size={22} color={area.color} />
+              <div className="inv-overview-img-wrap">
+                <img src={`${import.meta.env.BASE_URL}${area.image}`} alt={area.title} className="inv-overview-img" />
+                <span className="inv-overview-tag" style={{ background: `${area.color}15`, color: area.color }}>
+                  {area.tag}
+                </span>
               </div>
-              <h4>{area.title}</h4>
-              <p>{area.summary.slice(0, 100)}...</p>
-              <span className="inv-overview-tag" style={{ background: `${area.color}15`, color: area.color }}>
-                {area.tag}
-              </span>
+              <div className="inv-overview-card-body">
+                <div className="inv-overview-icon" style={{ background: `${area.color}15`, color: area.color }}>
+                  <Icon name={area.icon} size={22} color={area.color} />
+                </div>
+                <h4>{area.title}</h4>
+                <p>{area.summary.slice(0, 100)}...</p>
+              </div>
             </div>
           ))}
         </div>
@@ -170,6 +177,14 @@ export function InvolvementHighlights() {
           gap: 20px;
           padding: 32px;
           color: var(--mkn-white);
+          background-size: cover;
+          background-position: center;
+          min-height: 200px;
+        }
+        .inv-detail-header-content {
+          display: flex;
+          align-items: center;
+          gap: 20px;
         }
         .inv-detail-icon-wrap {
           width: 64px;
@@ -248,34 +263,57 @@ export function InvolvementHighlights() {
         .inv-overview-card {
           background: var(--mkn-white);
           border-radius: 12px;
-          padding: 28px;
           border: 1px solid var(--mkn-gray-light);
           cursor: pointer;
           transition: all 0.3s ease;
+          overflow: hidden;
         }
         .inv-overview-card:hover {
           border-color: var(--mkn-gold);
           box-shadow: var(--shadow-lg);
           transform: translateY(-4px);
         }
+        .inv-overview-img-wrap {
+          position: relative;
+          height: 160px;
+          overflow: hidden;
+        }
+        .inv-overview-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+        }
+        .inv-overview-card:hover .inv-overview-img {
+          transform: scale(1.05);
+        }
+        .inv-overview-img-wrap .inv-overview-tag {
+          position: absolute;
+          bottom: 8px;
+          right: 8px;
+          backdrop-filter: blur(4px);
+        }
+        .inv-overview-card-body {
+          padding: 24px;
+        }
         .inv-overview-icon {
-          width: 48px;
-          height: 48px;
+          width: 44px;
+          height: 44px;
           border-radius: 12px;
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-bottom: 16px;
+          margin-bottom: 12px;
         }
-        .inv-overview-card h4 {
+        .inv-overview-card-body h4 {
           font-size: 1.05rem;
           margin-bottom: 8px;
         }
-        .inv-overview-card p {
+        .inv-overview-card-body p {
           font-size: 0.85rem;
           color: var(--mkn-gray);
           line-height: 1.6;
-          margin-bottom: 12px;
+          margin: 0;
         }
         .inv-overview-tag {
           font-size: 0.72rem;

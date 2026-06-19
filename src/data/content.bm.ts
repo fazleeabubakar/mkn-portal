@@ -155,7 +155,7 @@ export const bm = {
 
   involvementAreas: [
     {
-      id: 'disaster', title: 'Pengurusan Bencana', icon: 'disaster',
+      id: 'disaster', title: 'Pengurusan Bencana', icon: 'disaster', image: 'inv-disaster.png',
       summary: 'Menyelaraskan respons Malaysia terhadap bencana alam melalui Arahan MKN No. 20 — daripada banjir dan tanah runtuh hingga gempa bumi dan jerebu.',
       highlights: [
         'Mengaktifkan 361 operasi bantuan banjir semasa musim monsun 2024-2025',
@@ -166,7 +166,7 @@ export const bm = {
       tag: 'NADMA', color: '#1d4ed8',
     },
     {
-      id: 'security', title: 'Dasar Keselamatan Negara', icon: 'shield',
+      id: 'security', title: 'Dasar Keselamatan Negara', icon: 'shield', image: 'inv-security.png',
       summary: 'Merangka strategi keselamatan negara yang menyeluruh merangkumi pertahanan, integriti sempadan, kedaulatan, dan pemencilan strategik.',
       highlights: [
         'Membangunkan rangka Dasar Keselamatan Negara (DAKN) 2021-2025',
@@ -177,7 +177,7 @@ export const bm = {
       tag: 'DAKN', color: '#0d2240',
     },
     {
-      id: 'counter-terrorism', title: 'Antipengganas', icon: 'target',
+      id: 'counter-terrorism', title: 'Antipengganas', icon: 'target', image: 'inv-counter-terrorism.png',
       summary: 'Memimpin usaha seluruh kerajaan untuk mencegah, mengesan, dan memberi respons terhadap keganasan serta ancaman ekstremisme ganas.',
       highlights: [
         'Melaksanakan Pelan Tindakan Kebangsaan untuk Mencegah & Menentang Ekstremisme Ganas (PCVE)',
@@ -188,7 +188,7 @@ export const bm = {
       tag: 'PCVE', color: '#b91c1c',
     },
     {
-      id: 'cybersecurity', title: 'Keselamatan Siber', icon: 'cyber',
+      id: 'cybersecurity', title: 'Keselamatan Siber', icon: 'cyber', image: 'inv-cybersecurity.png',
       summary: 'Melindungi infrastruktur digital Malaysia dan infrastruktur maklumat kebangsaan kritikal (CNII) daripada ancaman siber yang sentiasa berkembang.',
       highlights: [
         'Melindungi 412 entiti Infrastruktur Maklumat Kebangsaan Kritikal',
@@ -199,7 +199,7 @@ export const bm = {
       tag: 'CNII', color: '#6d28d9',
     },
     {
-      id: 'crisis', title: 'Respons Krisis & Kecemasan', icon: 'alert',
+      id: 'crisis', title: 'Respons Krisis & Kecemasan', icon: 'alert', image: 'inv-crisis.png',
       summary: 'Mengoperasikan Pusat Operasi Majlis Keselamatan Negara (PKTN) 24/7 untuk kesedaran situasi masa nyata dan penyelarasan krisis.',
       highlights: [
         'Mengekalkan operasi sepanjang masa melalui PKTN sejak 2003',
@@ -210,7 +210,7 @@ export const bm = {
       tag: 'PKTN', color: '#c2410c',
     },
     {
-      id: 'public-safety', title: 'Keselamatan Awam & Kesedaran', icon: 'community',
+      id: 'public-safety', title: 'Keselamatan Awam & Kesedaran', icon: 'community', image: 'inv-public-safety.png',
       summary: 'Memperkasakan komuniti melalui pendidikan keselamatan awam, program ketahanan negara, dan inisiatif kesediaan warganegara.',
       highlights: [
         'Mencapai 2.3 juta warga melalui Program Ketahanan Negara',
