@@ -17,7 +17,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     } catch {
       // localStorage not available
     }
-    return 'en';
+    return 'bm';
   });
 
   const setLang = useCallback((l: Language) => {
