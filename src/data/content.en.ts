@@ -96,7 +96,7 @@ export const en = {
       { label: 'Ministry', value: "Prime Minister's Department" },
       { label: 'Chairman', value: 'The Prime Minister of Malaysia' },
       { label: 'Headquarters', value: 'Putrajaya, Malaysia' },
-      { label: 'Director General', value: 'Datuk Ramlan bin Eibai' },
+      { label: 'Director General', value: "YM Raja Dato' Nushirwan bin Zainal Abidin" },
       { label: 'Core Directive', value: 'MKN Directive No. 20' },
     ],
   },
@@ -150,7 +150,7 @@ export const en = {
     { name: "YAB Dato' Seri Anwar bin Ibrahim", position: 'Chairman, National Security Council', role: 'Prime Minister of Malaysia', initials: 'AI', color: '#0d2240' },
     { name: "YAB Dato' Seri Dr. Ahmad Zahid bin Hamidi", position: 'Deputy Chairman', role: 'Deputy Prime Minister', initials: 'ZH', color: '#142d4c' },
     { name: 'Tan Sri Shamsul Azri bin Abu Bakar', position: 'Council Member', role: 'Chief Secretary to the Government', initials: 'SA', color: '#1a3a5c' },
-    { name: 'Datuk Ramlan bin Eibai', position: 'Director General of MKN', role: 'Chief Executive Officer', initials: 'RL', color: '#c5a253' },
+    { name: "YM Raja Dato' Nushirwan bin Zainal Abidin", position: 'Director General of MKN', role: 'Chief Executive Officer', initials: 'RN', color: '#c5a253' },
   ],
 
   involvementAreas: [

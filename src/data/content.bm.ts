@@ -96,7 +96,7 @@ export const bm = {
       { label: 'Kementerian', value: 'Jabatan Perdana Menteri' },
       { label: 'Pengerusi', value: 'Perdana Menteri Malaysia' },
       { label: 'Ibu Pejabat', value: 'Putrajaya, Malaysia' },
-      { label: 'Ketua Pengarah', value: 'Datuk Ramlan bin Eibai' },
+      { label: 'Ketua Pengarah', value: "YM Raja Dato' Nushirwan bin Zainal Abidin" },
       { label: 'Arahan Teras', value: 'Arahan MKN No. 20' },
     ],
   },
@@ -150,7 +150,7 @@ export const bm = {
     { name: "YAB Dato' Seri Anwar bin Ibrahim", position: 'Pengerusi, Majlis Keselamatan Negara', role: 'Perdana Menteri Malaysia', initials: 'AI', color: '#0d2240' },
     { name: "YAB Dato' Seri Dr. Ahmad Zahid bin Hamidi", position: 'Timbalan Pengerusi', role: 'Timbalan Perdana Menteri', initials: 'ZH', color: '#142d4c' },
     { name: 'Tan Sri Shamsul Azri bin Abu Bakar', position: 'Ahli Majlis', role: 'Ketua Setiausaha Negara', initials: 'SA', color: '#1a3a5c' },
-    { name: 'Datuk Ramlan bin Eibai', position: 'Ketua Pengarah MKN', role: 'Ketua Pegawai Eksekutif', initials: 'RL', color: '#c5a253' },
+    { name: "YM Raja Dato' Nushirwan bin Zainal Abidin", position: 'Ketua Pengarah MKN', role: 'Ketua Pegawai Eksekutif', initials: 'RN', color: '#c5a253' },
   ],
 
   involvementAreas: [
