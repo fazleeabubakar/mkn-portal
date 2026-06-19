@@ -39,10 +39,9 @@ export function Footer() {
         <div className="container footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-              <img src="/mkn-logo.svg" alt="MKN Logo" className="footer-logo-img" />
+              <img src="/mkn-logo.png" alt="Majlis Keselamatan Negara - Official Portal" className="footer-logo-img" />
               <div>
-                <div className="footer-logo-title">MAJLIS KESELAMATAN NEGARA</div>
-                <div className="footer-logo-sub">National Security Council</div>
+                <div className="footer-logo-sub">National Security Council of Malaysia</div>
               </div>
             </div>
             <p className="footer-desc">
@@ -246,8 +245,8 @@ export function Footer() {
           margin-bottom: 16px;
         }
         .footer-logo-img {
-          width: 52px;
-          height: 52px;
+          height: 56px;
+          width: auto;
         }
         .footer-logo-title {
           font-size: 0.88rem;
