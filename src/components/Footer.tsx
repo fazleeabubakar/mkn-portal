@@ -1,7 +1,9 @@
 import { Icon } from './Icon';
-import { footerLinks, emergencyContacts } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function Footer() {
+  const { t } = useLanguage();
+  const { footerLinks, emergencyContacts } = t;
   return (
     <footer id="contact">
       {/* Emergency Contacts Banner */}
@@ -10,8 +12,8 @@ export function Footer() {
           <div className="emergency-title">
             <Icon name="alert" size={28} color="#dc2626" />
             <div>
-              <h3>Emergency Contacts</h3>
-              <p>24/7 national security & disaster response hotlines</p>
+              <h3>{t.ui.emergencyContacts}</h3>
+              <p>{t.ui.emergencyContactsSubtitle}</p>
             </div>
           </div>
           <div className="emergency-contacts">
@@ -42,7 +44,7 @@ export function Footer() {
               <img src={`${import.meta.env.BASE_URL}mkn-emblem.png`} alt="Majlis Keselamatan Negara" className="footer-logo-img" />
               <div>
                 <div className="footer-logo-title">MAJLIS KESELAMATAN NEGARA</div>
-                <div className="footer-logo-sub">National Security Council of Malaysia</div>
+                <div className="footer-logo-sub">{t.ui.logoSubtitle}</div>
               </div>
             </div>
             <p className="footer-desc">
@@ -65,7 +67,7 @@ export function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>About MKN</h4>
+            <h4>{t.ui.aboutMKN}</h4>
             <ul>
               {footerLinks.about.map((link, i) => (
                 <li key={i}><a href="#corporate">{link}</a></li>
@@ -74,7 +76,7 @@ export function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Our Services</h4>
+            <h4>{t.ui.ourServices}</h4>
             <ul>
               {footerLinks.services.map((link, i) => (
                 <li key={i}><a href="#involvement">{link}</a></li>
@@ -83,7 +85,7 @@ export function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Resources</h4>
+            <h4>{t.ui.resources}</h4>
             <ul>
               {footerLinks.resources.map((link, i) => (
                 <li key={i}><a href="#services">{link}</a></li>
@@ -92,7 +94,7 @@ export function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Government</h4>
+            <h4>{t.ui.government}</h4>
             <ul>
               {footerLinks.government.map((link, i) => (
                 <li key={i}>
@@ -109,7 +111,7 @@ export function Footer() {
         {/* Social & Newsletter */}
         <div className="container footer-social">
           <div className="footer-social-left">
-            <span className="footer-social-label">Follow us:</span>
+            <span className="footer-social-label">{t.ui.followUs}</span>
             <div className="footer-social-icons">
               {['facebook', 'twitter', 'instagram', 'youtube'].map((social) => (
                 <a key={social} href="#footer" className="footer-social-icon">
@@ -119,10 +121,10 @@ export function Footer() {
             </div>
           </div>
           <div className="footer-newsletter">
-            <span className="footer-newsletter-label">Subscribe to MKN updates</span>
+            <span className="footer-newsletter-label">{t.ui.subscribeToUpdates}</span>
             <div className="footer-newsletter-input">
-              <input type="email" placeholder="Enter your email address" />
-              <button className="btn btn-primary footer-subscribe-btn">Subscribe</button>
+              <input type="email" placeholder={t.ui.enterEmail} />
+              <button className="btn btn-primary footer-subscribe-btn">{t.ui.subscribe}</button>
             </div>
           </div>
         </div>
@@ -132,16 +134,16 @@ export function Footer() {
       <div className="footer-copyright">
         <div className="container copyright-inner">
           <div className="copyright-left">
-            <span>© 2026 Majlis Keselamatan Negara. All Rights Reserved.</span>
+            <span>{t.ui.copyright}</span>
           </div>
           <div className="copyright-links">
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Use</a>
-            <a href="#disclaimer">Disclaimer</a>
-            <a href="#cookies">Cookie Policy</a>
+            <a href="#privacy">{t.ui.privacyPolicy}</a>
+            <a href="#terms">{t.ui.termsOfUse}</a>
+            <a href="#disclaimer">{t.ui.disclaimer}</a>
+            <a href="#cookies">{t.ui.cookiePolicy}</a>
           </div>
           <div className="copyright-last">
-            <span>Last Updated: 19 June 2026</span>
+            <span>{t.ui.lastUpdated}</span>
           </div>
         </div>
       </div>

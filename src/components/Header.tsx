@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Icon } from './Icon';
-import { navItems } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 100);
@@ -19,12 +20,12 @@ export function Header() {
           <img src={`${import.meta.env.BASE_URL}mkn-emblem.png`} alt="Majlis Keselamatan Negara" className="logo-img" />
           <div className="logo-text">
             <span className="logo-title">MAJLIS KESELAMATAN NEGARA</span>
-            <span className="logo-subtitle">National Security Council · Malaysia</span>
+            <span className="logo-subtitle">{t.ui.logoSubtitle}</span>
           </div>
         </a>
 
         <nav className={`header-nav ${mobileOpen ? 'nav-open' : ''}`}>
-          {navItems.map((item) => (
+          {t.navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
@@ -35,7 +36,7 @@ export function Header() {
             </a>
           ))}
           <a href="#contact" className="btn btn-primary nav-cta" onClick={() => setMobileOpen(false)}>
-            Emergency Contact
+            {t.ui.emergencyContact}
           </a>
         </nav>
 

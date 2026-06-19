@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import { Icon } from './Icon';
-import { involvementAreas } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function InvolvementHighlights() {
   const [activeTab, setActiveTab] = useState(0);
+  const { t } = useLanguage();
+  const involvementAreas = t.involvementAreas;
 
   return (
     <section id="involvement" className="section involvement-section">
       <div className="container">
         <div className="section-header">
-          <h2>MKN Involvement</h2>
+          <h2>{t.ui.involvement}</h2>
           <p className="subtitle">
-            From disaster management to cybersecurity — discover how MKN safeguards Malaysia across six critical domains of national security.
+            {t.ui.involvementSubtitle}
           </p>
           <div className="section-divider" />
         </div>
@@ -57,7 +59,7 @@ export function InvolvementHighlights() {
                   <div className="inv-highlights">
                     <h4 className="inv-highlights-title">
                       <Icon name="star" size={16} color="#c5a253" />
-                      Key Achievements
+                      {t.ui.keyAchievements}
                     </h4>
                     <div className="inv-highlights-grid">
                       {area.highlights.map((highlight, j) => (

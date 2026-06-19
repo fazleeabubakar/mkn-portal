@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Icon } from './Icon';
-import { statistics } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 function useCountUp(target: number, duration: number, start: boolean) {
   const [count, setCount] = useState(0);
@@ -29,7 +29,7 @@ function useCountUp(target: number, duration: number, start: boolean) {
   return count;
 }
 
-function StatCard({ stat, start }: { stat: typeof statistics[0]; start: boolean }) {
+function StatCard({ stat, start }: { stat: any; start: boolean }) {
   const count = useCountUp(stat.value, 1800, start);
 
   const formatNumber = (num: number) => {
@@ -59,6 +59,8 @@ function StatCard({ stat, start }: { stat: typeof statistics[0]; start: boolean 
 export function Statistics() {
   const sectionRef = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
+  const { t } = useLanguage();
+  const statistics = t.statistics;
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -83,9 +85,9 @@ export function Statistics() {
       <div className="stats-bg" />
       <div className="container" style={{ position: 'relative', zIndex: 2 }}>
         <div className="section-header">
-          <h2 style={{ color: 'var(--mkn-white)' }}>Impact in Numbers</h2>
+          <h2 style={{ color: 'var(--mkn-white)' }}>{t.ui.impactInNumbers}</h2>
           <p className="subtitle" style={{ color: 'rgba(255,255,255,0.7)' }}>
-            Measuring our commitment to national security through tangible results and outcomes.
+            {t.ui.statisticsSubtitle}
           </p>
           <div className="section-divider" />
         </div>

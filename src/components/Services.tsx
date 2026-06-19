@@ -1,14 +1,16 @@
 import { Icon } from './Icon';
-import { services } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function Services() {
+  const { t } = useLanguage();
+  const services = t.services;
   return (
     <section id="services" className="section">
       <div className="container">
         <div className="section-header">
-          <h2>Quick Access & Services</h2>
+          <h2>{t.ui.servicesTitle}</h2>
           <p className="subtitle">
-            Access essential MKN services, report emergencies, and find resources for disaster preparedness and national security.
+            {t.ui.servicesSubtitle}
           </p>
           <div className="section-divider" />
         </div>

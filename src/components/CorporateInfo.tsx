@@ -1,15 +1,17 @@
 import { Icon } from './Icon';
-import { aboutInfo, visionMission, orgStructure, leadership } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function CorporateInfo() {
+  const { t } = useLanguage();
+  const { aboutInfo, visionMission, orgStructure, leadership } = t;
   return (
     <section id="corporate" className="section">
       <div className="container">
         {/* ===== About Section ===== */}
         <div className="section-header">
-          <h2>Corporate Information</h2>
+          <h2>{t.ui.corporateInfo}</h2>
           <p className="subtitle">
-            Learn about the Majlis Keselamatan Negara — our mandate, history, and commitment to safeguarding Malaysia's national security.
+            {t.ui.corporateInfoSubtitle}
           </p>
           <div className="section-divider" />
         </div>
@@ -27,7 +29,7 @@ export function CorporateInfo() {
             <div className="facts-card">
               <div className="facts-header">
                 <Icon name="document" size={20} color="#c5a253" />
-                <span>Key Facts</span>
+                <span>{t.ui.keyFacts}</span>
               </div>
               <div className="facts-list">
                 {aboutInfo.keyFacts.map((fact, i) => (
@@ -47,21 +49,21 @@ export function CorporateInfo() {
             <div className="vm-icon-wrap">
               <Icon name="star" size={28} color="#c5a253" />
             </div>
-            <h3>Our Vision</h3>
+            <h3>{t.ui.ourVision}</h3>
             <p>{visionMission.vision}</p>
           </div>
           <div className="vm-card vm-mission">
             <div className="vm-icon-wrap">
               <Icon name="target" size={28} color="#c5a253" />
             </div>
-            <h3>Our Mission</h3>
+            <h3>{t.ui.ourMission}</h3>
             <p>{visionMission.mission}</p>
           </div>
         </div>
 
         {/* ===== Core Values ===== */}
         <div className="values-section">
-          <h3 className="values-heading">Core Values</h3>
+          <h3 className="values-heading">{t.ui.coreValues}</h3>
           <div className="values-grid">
             {visionMission.values.map((val, i) => (
               <div key={i} className="value-card">
@@ -87,7 +89,7 @@ export function CorporateInfo() {
                 <div className="org-tier-badge" style={{
                   background: i === 0 ? 'var(--mkn-navy)' : i === 1 ? 'var(--mkn-navy-light)' : 'var(--mkn-navy-lighter)'
                 }}>
-                  Tier {i + 1}
+                  {t.ui.tier} {i + 1}
                 </div>
                 <div className="org-tier-content">
                   <h4 className="org-tier-title">{level.title}</h4>
@@ -113,9 +115,9 @@ export function CorporateInfo() {
         {/* ===== Leadership ===== */}
         <div className="leadership-section">
           <div className="section-header" style={{ marginBottom: '40px' }}>
-            <h3 style={{ fontSize: '1.6rem' }}>Key Leadership</h3>
+            <h3 style={{ fontSize: '1.6rem' }}>{t.ui.keyLeadership}</h3>
             <p className="subtitle">
-              The distinguished leadership guiding Malaysia's national security agenda.
+              {t.ui.leadershipSubtitle}
             </p>
           </div>
           <div className="leadership-grid">

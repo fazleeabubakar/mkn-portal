@@ -1,7 +1,9 @@
 import { Icon } from './Icon';
-import { heroContent } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function Hero() {
+  const { t } = useLanguage();
+  const heroContent = t.heroContent;
   return (
     <section id="home" className="hero">
       <div className="hero-bg-pattern" />
@@ -37,7 +39,7 @@ export function Hero() {
       </div>
 
       <div className="hero-scroll-indicator">
-        <span>Scroll to explore</span>
+        <span>{t.ui.scrollExplore}</span>
         <Icon name="chevron" size={20} color="rgba(255,255,255,0.6)" />
       </div>
 

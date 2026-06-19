@@ -1,14 +1,16 @@
 import { Icon } from './Icon';
-import { newsItems } from '../data/content';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function NewsAnnouncements() {
+  const { t } = useLanguage();
+  const newsItems = t.newsItems;
   return (
     <section id="news" className="section">
       <div className="container">
         <div className="section-header">
-          <h2>News & Announcements</h2>
+          <h2>{t.ui.newsAnnouncements}</h2>
           <p className="subtitle">
-            Stay updated with the latest developments, operations, and initiatives from the National Security Council.
+            {t.ui.newsSubtitle}
           </p>
           <div className="section-divider" />
         </div>
@@ -35,7 +37,7 @@ export function NewsAnnouncements() {
               <h3 className="news-featured-title">{newsItems[0].title}</h3>
               <p className="news-featured-excerpt">{newsItems[0].excerpt}</p>
               <a href="#news" className="news-read-more">
-                Read Full Article
+                {t.ui.readFullArticle}
                 <Icon name="arrow" size={16} color="#c5a253" />
               </a>
             </div>
@@ -61,7 +63,7 @@ export function NewsAnnouncements() {
                       {item.tag}
                     </span>
                     <a href="#news" className="news-card-link">
-                      Read more
+                      {t.ui.readMore}
                       <Icon name="arrow" size={14} color="#0d2240" />
                     </a>
                   </div>
@@ -73,7 +75,7 @@ export function NewsAnnouncements() {
 
         <div className="news-cta">
           <a href="#news" className="btn btn-navy">
-            View All Announcements
+            {t.ui.viewAllAnnouncements}
             <Icon name="arrow" size={18} color="#fff" />
           </a>
         </div>

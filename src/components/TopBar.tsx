@@ -1,26 +1,39 @@
 import { Icon } from './Icon';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export function TopBar() {
+  const { lang, setLang, t } = useLanguage();
+
   return (
     <div className="topbar">
       <div className="container topbar-inner">
         <div className="topbar-left">
           <span className="topbar-gov-label">
             <Icon name="shield" size={14} color="#c5a253" />
-            An official portal of the Malaysian Government
+            {t.ui.officialPortal}
           </span>
         </div>
         <div className="topbar-right">
           <div className="topbar-lang">
-            <span className="lang-active">EN</span>
+            <button
+              className={lang === 'en' ? 'lang-active' : 'lang-btn'}
+              onClick={() => setLang('en')}
+            >
+              EN
+            </button>
             <span className="lang-sep">|</span>
-            <span className="lang-btn">BM</span>
+            <button
+              className={lang === 'bm' ? 'lang-active' : 'lang-btn'}
+              onClick={() => setLang('bm')}
+            >
+              BM
+            </button>
           </div>
           <div className="topbar-links">
-            <a href="#accessibility" className="topbar-link">Accessibility</a>
-            <a href="#sitemap" className="topbar-link">Sitemap</a>
-            <a href="#faq" className="topbar-link">FAQ</a>
-            <a href="#contact" className="topbar-link">Contact Us</a>
+            <a href="#accessibility" className="topbar-link">{t.ui.accessibility}</a>
+            <a href="#sitemap" className="topbar-link">{t.ui.sitemap}</a>
+            <a href="#faq" className="topbar-link">{t.ui.faq}</a>
+            <a href="#contact" className="topbar-link">{t.ui.contactUs}</a>
           </div>
         </div>
       </div>
@@ -57,16 +70,25 @@ export function TopBar() {
           gap: 6px;
           color: rgba(255, 255, 255, 0.5);
         }
+        .topbar-lang button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          font-family: inherit;
+          font-size: inherit;
+          padding: 0;
+          color: rgba(255, 255, 255, 0.5);
+          transition: color 0.2s;
+        }
         .lang-active {
           color: var(--mkn-gold);
           font-weight: 700;
         }
-        .lang-btn {
-          cursor: pointer;
-          transition: color 0.2s;
-        }
         .lang-btn:hover {
           color: var(--mkn-gold);
+        }
+        .lang-sep {
+          color: rgba(255, 255, 255, 0.3);
         }
         .topbar-links {
           display: flex;

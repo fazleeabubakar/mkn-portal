@@ -1,3 +1,4 @@
+import { LanguageProvider } from './i18n/LanguageContext';
 import { TopBar } from './components/TopBar';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -10,7 +11,7 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <>
+    <LanguageProvider>
       <TopBar />
       <Header />
       <main>
@@ -22,6 +23,6 @@ export default function App() {
         <Services />
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   );
 }
