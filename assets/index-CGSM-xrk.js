@@ -142,15 +142,17 @@ Error generating stack: `+i.message+`
           line-height: 1.2;
         }
         .logo-title {
+          font-family: var(--font-heading);
           font-size: 0.95rem;
-          font-weight: 800;
+          font-weight: 600;
           color: var(--mkn-navy);
-          letter-spacing: 0.5px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
         }
         .logo-subtitle {
           font-size: 0.72rem;
           color: var(--mkn-gray);
-          letter-spacing: 0.3px;
+          letter-spacing: 0.5px;
         }
         .header-nav {
           display: flex;
@@ -159,8 +161,11 @@ Error generating stack: `+i.message+`
         }
         .nav-link {
           padding: 10px 14px;
-          font-size: 0.88rem;
-          font-weight: 600;
+          font-family: var(--font-heading);
+          font-size: 0.85rem;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
           color: var(--mkn-navy);
           border-radius: 6px;
           transition: all 0.2s ease;
@@ -296,19 +301,21 @@ Error generating stack: `+i.message+`
           animation: pulse 2s ease infinite;
         }
         .hero-title {
-          font-size: 3.5rem;
+          font-size: 3.8rem;
           color: var(--mkn-white);
           margin-bottom: 20px;
-          line-height: 1.15;
-          font-weight: 800;
+          line-height: 1.1;
+          font-weight: 700;
+          letter-spacing: 1px;
         }
         .hero-title-accent {
           display: block;
-          font-size: 1.6rem;
-          font-weight: 400;
+          font-size: 1.4rem;
+          font-weight: 300;
           color: var(--mkn-gold);
-          letter-spacing: 2px;
+          letter-spacing: 4px;
           margin-top: 8px;
+          text-transform: uppercase;
         }
         .hero-description {
           font-size: 1.15rem;
@@ -338,16 +345,17 @@ Error generating stack: `+i.message+`
           animation: fadeInUp 0.6s ease forwards;
         }
         .hero-stat-value {
-          font-size: 2.5rem;
-          font-weight: 800;
+          font-family: var(--font-heading);
+          font-size: 2.8rem;
+          font-weight: 700;
           color: var(--mkn-gold);
           line-height: 1;
           margin-bottom: 6px;
         }
         .hero-stat-label {
-          font-size: 0.82rem;
+          font-size: 0.72rem;
           color: rgba(255, 255, 255, 0.6);
-          letter-spacing: 0.5px;
+          letter-spacing: 1px;
           text-transform: uppercase;
         }
         .hero-scroll-indicator {
@@ -1180,8 +1188,9 @@ Error generating stack: `+i.message+`
           justify-content: center;
         }
         .stat-value {
-          font-size: 2.2rem;
-          font-weight: 800;
+          font-family: var(--font-heading);
+          font-size: 2.4rem;
+          font-weight: 700;
           color: var(--mkn-gold);
           line-height: 1;
           margin-bottom: 8px;
