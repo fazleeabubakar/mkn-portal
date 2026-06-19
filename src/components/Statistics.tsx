@@ -146,8 +146,9 @@ export function Statistics() {
           justify-content: center;
         }
         .stat-value {
-          font-size: 2.2rem;
-          font-weight: 800;
+          font-family: var(--font-heading);
+          font-size: 2.4rem;
+          font-weight: 700;
           color: var(--mkn-gold);
           line-height: 1;
           margin-bottom: 8px;

@@ -86,15 +86,17 @@ export function Header() {
           line-height: 1.2;
         }
         .logo-title {
+          font-family: var(--font-heading);
           font-size: 0.95rem;
-          font-weight: 800;
+          font-weight: 600;
           color: var(--mkn-navy);
-          letter-spacing: 0.5px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
         }
         .logo-subtitle {
           font-size: 0.72rem;
           color: var(--mkn-gray);
-          letter-spacing: 0.3px;
+          letter-spacing: 0.5px;
         }
         .header-nav {
           display: flex;
@@ -103,8 +105,11 @@ export function Header() {
         }
         .nav-link {
           padding: 10px 14px;
-          font-size: 0.88rem;
-          font-weight: 600;
+          font-family: var(--font-heading);
+          font-size: 0.85rem;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
           color: var(--mkn-navy);
           border-radius: 6px;
           transition: all 0.2s ease;
