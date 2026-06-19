@@ -8,3 +8,5 @@ dist-ssr
 .env.local
 .DS_Store
 *.log
+public/mkn-logo.png
+public/mkn-logo-official.png

@@ -16,8 +16,9 @@ export function Header() {
     <header className={`header ${scrolled ? 'header-scrolled' : ''}`}>
       <div className="container header-inner">
         <a href="#home" className="header-logo" onClick={() => setMobileOpen(false)}>
-          <img src="/mkn-logo.png" alt="Majlis Keselamatan Negara - Official Portal" className="logo-img" />
+          <img src={`${import.meta.env.BASE_URL}mkn-emblem.png`} alt="Majlis Keselamatan Negara" className="logo-img" />
           <div className="logo-text">
+            <span className="logo-title">MAJLIS KESELAMATAN NEGARA</span>
             <span className="logo-subtitle">National Security Council · Malaysia</span>
           </div>
         </a>
@@ -74,8 +75,9 @@ export function Header() {
           flex-shrink: 0;
         }
         .logo-img {
+          width: 56px;
           height: 56px;
-          width: auto;
+          object-fit: contain;
         }
         .logo-text {
           display: flex;
@@ -175,7 +177,8 @@ export function Header() {
 
         @media (max-width: 600px) {
           .logo-subtitle { display: none; }
-          .logo-img { height: 44px; width: auto; }
+          .logo-title { font-size: 0.8rem; }
+          .logo-img { width: 44px; height: 44px; }
         }
       `}</style>
     </header>
