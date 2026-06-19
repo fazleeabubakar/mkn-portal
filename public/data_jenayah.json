@@ -1,0 +1,74 @@
+[
+  {
+    "daerah": "Petaling",
+    "negeri": "Selangor",
+    "jenayah": [
+      { "jenis": "Curi Kenderaan", "kes": 245, "selesai": 180 },
+      { "jenis": "Rompakan", "kes": 89, "selesai": 67 },
+      { "jenis": "Pecah Rumah", "kes": 156, "selesai": 120 },
+      { "jenis": "Rogol", "kes": 23, "selesai": 21 },
+      { "jenis": "Pengedaran Dadah", "kes": 67, "selesai": 52 }
+    ],
+    "bulan": "Januari 2026"
+  },
+  {
+    "daerah": "Gombak",
+    "negeri": "Selangor",
+    "jenayah": [
+      { "jenis": "Curi Kenderaan", "kes": 132, "selesai": 98 },
+      { "jenis": "Rompakan", "kes": 54, "selesai": 41 },
+      { "jenis": "Pecah Rumah", "kes": 78, "selesai": 60 },
+      { "jenis": "Rogol", "kes": 12, "selesai": 11 },
+      { "jenis": "Pengedaran Dadah", "kes": 34, "selesai": 28 }
+    ],
+    "bulan": "Januari 2026"
+  },
+  {
+    "daerah": "Kuala Lumpur",
+    "negeri": "Wilayah Persekutuan",
+    "jenayah": [
+      { "jenis": "Curi Kenderaan", "kes": 387, "selesai": 290 },
+      { "jenis": "Rompakan", "kes": 134, "selesai": 98 },
+      { "jenis": "Pecah Rumah", "kes": 201, "selesai": 156 },
+      { "jenis": "Rogol", "kes": 31, "selesai": 28 },
+      { "jenis": "Pengedaran Dadah", "kes": 89, "selesai": 71 }
+    ],
+    "bulan": "Januari 2026"
+  },
+  {
+    "daerah": "Johor Bahru",
+    "negeri": "Johor",
+    "jenayah": [
+      { "jenis": "Curi Kenderaan", "kes": 178, "selesai": 132 },
+      { "jenis": "Rompakan", "kes": 67, "selesai": 50 },
+      { "jenis": "Pecah Rumah", "kes": 98, "selesai": 75 },
+      { "jenis": "Rogol", "kes": 15, "selesai": 14 },
+      { "jenis": "Pengedaran Dadah", "kes": 45, "selesai": 38 }
+    ],
+    "bulan": "Januari 2026"
+  },
+  {
+    "daerah": "Timur Laut",
+    "negeri": "Pulau Pinang",
+    "jenayah": [
+      { "jenis": "Curi Kenderaan", "kes": 98, "selesai": 72 },
+      { "jenis": "Rompakan", "kes": 43, "selesai": 32 },
+      { "jenis": "Pecah Rumah", "kes": 67, "selesai": 51 },
+      { "jenis": "Rogol", "kes": 9, "selesai": 8 },
+      { "jenis": "Pengedaran Dadah", "kes": 28, "selesai": 23 }
+    ],
+    "bulan": "Januari 2026"
+  },
+  {
+    "daerah": "Kinta",
+    "negeri": "Perak",
+    "jenayah": [
+      { "jenis": "Curi Kenderaan", "kes": 87, "selesai": 65 },
+      { "jenis": "Rompakan", "kes": 34, "selesai": 26 },
+      { "jenis": "Pecah Rumah", "kes": 56, "selesai": 42 },
+      { "jenis": "Rogol", "kes": 7, "selesai": 6 },
+      { "jenis": "Pengedaran Dadah", "kes": 22, "selesai": 18 }
+    ],
+    "bulan": "Januari 2026"
+  }
+]
