@@ -1,4 +1,5 @@
 import { LanguageProvider } from './i18n/LanguageContext';
+import { ThemeProvider } from './i18n/ThemeContext';
 import { TopBar } from './components/TopBar';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -11,18 +12,20 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <LanguageProvider>
-      <TopBar />
-      <Header />
-      <main>
-        <Hero />
-        <CorporateInfo />
-        <InvolvementHighlights />
-        <Statistics />
-        <NewsAnnouncements />
-        <Services />
-      </main>
-      <Footer />
-    </LanguageProvider>
+    <ThemeProvider>
+      <LanguageProvider>
+        <TopBar />
+        <Header />
+        <main>
+          <Hero />
+          <CorporateInfo />
+          <InvolvementHighlights />
+          <Statistics />
+          <NewsAnnouncements />
+          <Services />
+        </main>
+        <Footer />
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }

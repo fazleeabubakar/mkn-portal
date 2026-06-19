@@ -45,13 +45,13 @@ export function Header() {
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
-          <Icon name={mobileOpen ? 'close' : 'menu'} size={26} color="#0d2240" />
+          <Icon name={mobileOpen ? 'close' : 'menu'} size={26} color="var(--icon-default)" />
         </button>
       </div>
 
       <style>{`
         .header {
-          background: var(--mkn-white);
+          background: var(--bg-card);
           box-shadow: var(--shadow-sm);
           position: sticky;
           top: 0;
@@ -89,13 +89,13 @@ export function Header() {
           font-family: var(--font-heading);
           font-size: 0.95rem;
           font-weight: 600;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
           letter-spacing: 1px;
           text-transform: uppercase;
         }
         .logo-subtitle {
           font-size: 0.72rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           letter-spacing: 0.5px;
         }
         .header-nav {
@@ -110,7 +110,7 @@ export function Header() {
           font-weight: 500;
           letter-spacing: 0.5px;
           text-transform: uppercase;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
           border-radius: 6px;
           transition: all 0.2s ease;
           position: relative;
@@ -154,7 +154,7 @@ export function Header() {
             top: var(--header-height);
             left: 0;
             right: 0;
-            background: var(--mkn-white);
+            background: var(--bg-card);
             flex-direction: column;
             padding: 16px;
             gap: 4px;

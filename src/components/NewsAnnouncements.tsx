@@ -64,7 +64,7 @@ export function NewsAnnouncements() {
                     </span>
                     <a href="#news" className="news-card-link">
                       {t.ui.readMore}
-                      <Icon name="arrow" size={14} color="#0d2240" />
+                      <Icon name="arrow" size={14} color="var(--icon-default)" />
                     </a>
                   </div>
                 </div>
@@ -91,11 +91,11 @@ export function NewsAnnouncements() {
 
         /* Featured */
         .news-featured {
-          background: var(--mkn-white);
+          background: var(--bg-card);
           border-radius: 16px;
           overflow: hidden;
           box-shadow: var(--shadow-lg);
-          border: 1px solid var(--mkn-gray-light);
+          border: 1px solid var(--border-default);
           display: flex;
           flex-direction: column;
         }
@@ -162,7 +162,7 @@ export function NewsAnnouncements() {
           line-height: 1.4;
         }
         .news-featured-excerpt {
-          color: #4b5563;
+          color: var(--text-muted);
           line-height: 1.7;
           margin-bottom: 20px;
           font-size: 0.95rem;
@@ -187,9 +187,9 @@ export function NewsAnnouncements() {
           gap: 16px;
         }
         .news-card {
-          background: var(--mkn-white);
+          background: var(--bg-card);
           border-radius: 12px;
-          border: 1px solid var(--mkn-gray-light);
+          border: 1px solid var(--border-default);
           transition: all 0.3s ease;
           overflow: hidden;
         }
@@ -205,11 +205,11 @@ export function NewsAnnouncements() {
           font-size: 1rem;
           margin-bottom: 8px;
           line-height: 1.4;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
         }
         .news-card-excerpt {
           font-size: 0.82rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           line-height: 1.6;
           margin-bottom: 14px;
         }
@@ -230,7 +230,7 @@ export function NewsAnnouncements() {
           gap: 4px;
           font-size: 0.8rem;
           font-weight: 600;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
           transition: gap 0.2s ease;
         }
         .news-card-link:hover {

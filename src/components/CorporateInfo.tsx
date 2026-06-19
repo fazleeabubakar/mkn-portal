@@ -151,7 +151,7 @@ export function CorporateInfo() {
         .about-heading {
           font-size: 1.8rem;
           margin-bottom: 20px;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
           position: relative;
           padding-left: 16px;
         }
@@ -167,13 +167,13 @@ export function CorporateInfo() {
         }
         .about-intro {
           font-size: 1.1rem;
-          color: #374151;
+          color: var(--text-secondary);
           margin-bottom: 16px;
           font-weight: 500;
           line-height: 1.8;
         }
         .about-body-text {
-          color: #4b5563;
+          color: var(--text-muted);
           margin-bottom: 14px;
           line-height: 1.8;
         }
@@ -228,10 +228,10 @@ export function CorporateInfo() {
           margin-bottom: 64px;
         }
         .vm-card {
-          background: var(--mkn-cream);
+          background: var(--bg-section);
           border-radius: 12px;
           padding: 36px;
-          border: 1px solid var(--mkn-gray-light);
+          border: 1px solid var(--border-default);
           border-top: 4px solid var(--mkn-gold);
           transition: all 0.3s ease;
         }
@@ -254,7 +254,7 @@ export function CorporateInfo() {
           margin-bottom: 12px;
         }
         .vm-card p {
-          color: #4b5563;
+          color: var(--text-muted);
           line-height: 1.8;
           font-size: 0.98rem;
         }
@@ -277,8 +277,8 @@ export function CorporateInfo() {
           text-align: center;
           padding: 28px 20px;
           border-radius: 12px;
-          background: var(--mkn-white);
-          border: 1px solid var(--mkn-gray-light);
+          background: var(--bg-card);
+          border: 1px solid var(--border-default);
           transition: all 0.3s ease;
         }
         .value-card:hover {
@@ -301,13 +301,13 @@ export function CorporateInfo() {
         }
         .value-card p {
           font-size: 0.85rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           line-height: 1.6;
         }
 
         /* Org Structure */
         .org-section {
-          background: var(--mkn-cream);
+          background: var(--bg-section);
           padding: 56px;
           border-radius: 16px;
           margin-bottom: 64px;
@@ -340,10 +340,10 @@ export function CorporateInfo() {
         }
         .org-tier-content {
           flex: 1;
-          background: var(--mkn-white);
+          background: var(--bg-card);
           border-radius: 12px;
           padding: 24px;
-          border: 1px solid var(--mkn-gray-light);
+          border: 1px solid var(--border-default);
           box-shadow: var(--shadow-sm);
         }
         .org-tier-title {
@@ -352,7 +352,7 @@ export function CorporateInfo() {
         }
         .org-tier-desc {
           font-size: 0.88rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           margin-bottom: 16px;
           line-height: 1.6;
         }
@@ -364,8 +364,8 @@ export function CorporateInfo() {
         .org-member-tag {
           font-size: 0.78rem;
           padding: 5px 12px;
-          background: rgba(13, 34, 64, 0.06);
-          color: var(--mkn-navy);
+          background: var(--tag-bg);
+          color: var(--text-heading);
           border-radius: 100px;
           font-weight: 500;
         }
@@ -386,11 +386,11 @@ export function CorporateInfo() {
           gap: 24px;
         }
         .leader-card {
-          background: var(--mkn-white);
+          background: var(--bg-card);
           border-radius: 12px;
           padding: 28px;
           text-align: center;
-          border: 1px solid var(--mkn-gray-light);
+          border: 1px solid var(--border-default);
           transition: all 0.3s ease;
         }
         .leader-card:hover {
@@ -424,7 +424,7 @@ export function CorporateInfo() {
         }
         .leader-role {
           font-size: 0.78rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
         }
 
         /* Responsive */

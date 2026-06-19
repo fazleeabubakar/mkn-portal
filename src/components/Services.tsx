@@ -19,7 +19,7 @@ export function Services() {
           {services.map((service, i) => (
             <div key={i} className="service-card">
               <div className="service-icon-wrap">
-                <Icon name={service.icon} size={26} color="#0d2240" />
+                <Icon name={service.icon} size={26} color="var(--icon-default)" />
               </div>
               <h3 className="service-title">{service.title}</h3>
               <p className="service-desc">{service.description}</p>
@@ -39,8 +39,8 @@ export function Services() {
           gap: 24px;
         }
         .service-card {
-          background: var(--mkn-white);
-          border: 1px solid var(--mkn-gray-light);
+          background: var(--bg-card);
+          border: 1px solid var(--border-default);
           border-radius: 16px;
           padding: 32px;
           transition: all 0.3s ease;
@@ -71,7 +71,7 @@ export function Services() {
           width: 56px;
           height: 56px;
           border-radius: 14px;
-          background: rgba(13, 34, 64, 0.06);
+          background: var(--tag-bg);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -90,7 +90,7 @@ export function Services() {
         }
         .service-desc {
           font-size: 0.88rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           line-height: 1.6;
           margin-bottom: 20px;
         }

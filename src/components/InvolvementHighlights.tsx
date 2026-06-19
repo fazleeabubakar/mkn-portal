@@ -111,7 +111,7 @@ export function InvolvementHighlights() {
 
       <style>{`
         .involvement-section {
-          background: var(--mkn-cream);
+          background: var(--bg-section);
         }
 
         /* Tabs */
@@ -121,7 +121,7 @@ export function InvolvementHighlights() {
           margin-bottom: 32px;
           overflow-x: auto;
           padding-bottom: 4px;
-          border-bottom: 2px solid var(--mkn-gray-light);
+          border-bottom: 2px solid var(--border-default);
           scrollbar-width: thin;
         }
         .inv-tab {
@@ -132,19 +132,19 @@ export function InvolvementHighlights() {
           border-radius: 10px 10px 0 0;
           font-size: 0.88rem;
           font-weight: 600;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           white-space: nowrap;
           transition: all 0.25s ease;
           border-bottom: 3px solid transparent;
           margin-bottom: -2px;
         }
         .inv-tab:hover {
-          color: var(--mkn-navy);
+          color: var(--text-heading);
           background: rgba(13, 34, 64, 0.04);
         }
         .inv-tab-active {
-          color: var(--mkn-navy);
-          background: var(--mkn-white);
+          color: var(--text-heading);
+          background: var(--bg-card);
           box-shadow: var(--shadow-sm);
         }
         .inv-tab-icon {
@@ -166,7 +166,7 @@ export function InvolvementHighlights() {
           margin-bottom: 56px;
         }
         .inv-detail {
-          background: var(--mkn-white);
+          background: var(--bg-card);
           border-radius: 16px;
           overflow: hidden;
           box-shadow: var(--shadow-lg);
@@ -220,7 +220,7 @@ export function InvolvementHighlights() {
         }
         .inv-detail-summary {
           font-size: 1.05rem;
-          color: #374151;
+          color: var(--text-secondary);
           line-height: 1.8;
           margin-bottom: 28px;
         }
@@ -230,7 +230,7 @@ export function InvolvementHighlights() {
           gap: 8px;
           font-size: 1rem;
           margin-bottom: 16px;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
         }
         .inv-highlights-grid {
           display: grid;
@@ -242,10 +242,10 @@ export function InvolvementHighlights() {
           align-items: flex-start;
           gap: 10px;
           font-size: 0.92rem;
-          color: #4b5563;
+          color: var(--text-muted);
           line-height: 1.6;
           padding: 12px 16px;
-          background: var(--mkn-cream);
+          background: var(--bg-section);
           border-radius: 8px;
           border-left: 3px solid var(--mkn-gold);
         }
@@ -261,9 +261,9 @@ export function InvolvementHighlights() {
           gap: 20px;
         }
         .inv-overview-card {
-          background: var(--mkn-white);
+          background: var(--bg-card);
           border-radius: 12px;
-          border: 1px solid var(--mkn-gray-light);
+          border: 1px solid var(--border-default);
           cursor: pointer;
           transition: all 0.3s ease;
           overflow: hidden;
@@ -311,7 +311,7 @@ export function InvolvementHighlights() {
         }
         .inv-overview-card-body p {
           font-size: 0.85rem;
-          color: var(--mkn-gray);
+          color: var(--text-gray);
           line-height: 1.6;
           margin: 0;
         }

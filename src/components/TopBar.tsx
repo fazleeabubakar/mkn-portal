@@ -1,8 +1,10 @@
 import { Icon } from './Icon';
 import { useLanguage } from '../i18n/LanguageContext';
+import { useTheme } from '../i18n/ThemeContext';
 
 export function TopBar() {
   const { lang, setLang, t } = useLanguage();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <div className="topbar">
@@ -29,6 +31,14 @@ export function TopBar() {
               BM
             </button>
           </div>
+          <button
+            className="theme-toggle"
+            onClick={toggleTheme}
+            aria-label="Toggle dark mode"
+            title={theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+          >
+            <Icon name={theme === 'dark' ? 'sun' : 'moon'} size={16} color="#c5a253" />
+          </button>
           <div className="topbar-links">
             <a href="#accessibility" className="topbar-link">{t.ui.accessibility}</a>
             <a href="#sitemap" className="topbar-link">{t.ui.sitemap}</a>
@@ -94,6 +104,23 @@ export function TopBar() {
           display: flex;
           gap: 16px;
         }
+        .theme-toggle {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background: rgba(197, 162, 83, 0.12);
+          border: 1px solid rgba(197, 162, 83, 0.3);
+          cursor: pointer;
+          transition: all 0.25s ease;
+          flex-shrink: 0;
+        }
+        .theme-toggle:hover {
+          background: rgba(197, 162, 83, 0.25);
+          transform: scale(1.1);
+        }
         .topbar-link {
           color: rgba(255, 255, 255, 0.6);
           transition: color 0.2s;
@@ -104,6 +131,7 @@ export function TopBar() {
         @media (max-width: 768px) {
           .topbar-links { display: none; }
           .topbar-gov-label { font-size: 0.7rem; }
+          .theme-toggle { width: 24px; height: 24px; }
         }
       `}</style>
     </div>

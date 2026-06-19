@@ -218,7 +218,7 @@ export function Footer() {
         .emergency-contact-phone {
           font-size: 1rem;
           font-weight: 800;
-          color: var(--mkn-navy);
+          color: var(--text-heading);
         }
         .emergency-contact-hours {
           display: flex;
@@ -457,6 +457,22 @@ export function Footer() {
           .emergency-contacts {
             grid-template-columns: 1fr;
           }
+        }
+
+        /* Dark Mode Emergency Banner */
+        [data-theme="dark"] .emergency-banner {
+          background: linear-gradient(135deg, #1a0a0a, #1a1010);
+          border-top: 3px solid #dc2626;
+        }
+        [data-theme="dark"] .emergency-contact-item {
+          background: var(--bg-card);
+          border: 1px solid #4a2020;
+        }
+        [data-theme="dark"] .emergency-title h3 {
+          color: #f87171;
+        }
+        [data-theme="dark"] .emergency-title p {
+          color: var(--text-gray);
         }
       `}</style>
     </footer>
