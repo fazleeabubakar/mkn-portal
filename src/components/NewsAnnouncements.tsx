@@ -38,7 +38,7 @@ export function NewsAnnouncements() {
               <p className="news-featured-excerpt">{newsItems[0].excerpt}</p>
               <a href="#news" className="news-read-more">
                 {t.ui.readFullArticle}
-                <Icon name="arrow" size={16} color="#c5a253" />
+                <Icon name="arrow" size={16} color="#b8965a" />
               </a>
             </div>
           </div>
@@ -101,7 +101,7 @@ export function NewsAnnouncements() {
         }
         .news-featured-banner {
           position: relative;
-          background: linear-gradient(135deg, #0d2240, #1a3a5c);
+          background: linear-gradient(135deg, #1e3a5f, #3a5a7c);
           padding: 48px;
           min-height: 180px;
           display: flex;
@@ -115,8 +115,8 @@ export function NewsAnnouncements() {
           right: 0;
           bottom: 0;
           background:
-            radial-gradient(circle at 80% 20%, rgba(197, 162, 83, 0.15) 0%, transparent 50%),
-            radial-gradient(circle at 20% 80%, rgba(26, 58, 92, 0.3) 0%, transparent 50%);
+            radial-gradient(circle at 80% 20%, rgba(184, 150, 90, 0.15) 0%, transparent 50%),
+            radial-gradient(circle at 20% 80%, rgba(58, 90, 124, 0.3) 0%, transparent 50%);
         }
         .news-featured-banner .news-tag {
           position: relative;

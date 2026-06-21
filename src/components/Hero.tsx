@@ -22,7 +22,7 @@ export function Hero() {
         <div className="hero-actions">
           <a href="#corporate" className="btn btn-primary">
             {heroContent.primaryAction}
-            <Icon name="arrow" size={18} color="#0d2240" />
+            <Icon name="arrow" size={18} color="#1e3a5f" />
           </a>
           <a href="#involvement" className="btn btn-outline">
             {heroContent.secondaryAction}
@@ -63,7 +63,7 @@ export function Hero() {
           background-size: cover;
           background-position: center 30%;
           background-repeat: no-repeat;
-          opacity: 0.15;
+          opacity: 0.12;
         }
         .hero-overlay {
           position: absolute;
@@ -71,7 +71,7 @@ export function Hero() {
           left: 0;
           right: 0;
           bottom: 0;
-          background: linear-gradient(135deg, rgba(13, 34, 64, 0.95) 0%, rgba(20, 45, 76, 0.88) 40%, rgba(26, 58, 92, 0.82) 100%);
+          background: linear-gradient(135deg, rgba(30, 58, 95, 0.94) 0%, rgba(42, 74, 110, 0.88) 40%, rgba(58, 90, 124, 0.82) 100%);
         }
         .hero-bg-pattern {
           position: absolute;
@@ -80,9 +80,9 @@ export function Hero() {
           right: 0;
           bottom: 0;
           background-image:
-            radial-gradient(circle at 20% 50%, rgba(197, 162, 83, 0.08) 0%, transparent 50%),
-            radial-gradient(circle at 80% 30%, rgba(26, 58, 92, 0.3) 0%, transparent 40%),
-            radial-gradient(circle at 60% 80%, rgba(197, 162, 83, 0.04) 0%, transparent 50%);
+            radial-gradient(circle at 20% 50%, rgba(184, 150, 90, 0.08) 0%, transparent 50%),
+            radial-gradient(circle at 80% 30%, rgba(58, 90, 124, 0.3) 0%, transparent 40%),
+            radial-gradient(circle at 60% 80%, rgba(184, 150, 90, 0.04) 0%, transparent 50%);
         }
         .hero-content {
           position: relative;
@@ -102,24 +102,23 @@ export function Hero() {
           animation: pulse 2s ease infinite;
         }
         .hero-title {
-          font-size: 3.8rem;
+          font-size: 3.2rem;
           color: var(--mkn-white);
           margin-bottom: 20px;
-          line-height: 1.1;
-          font-weight: 700;
-          letter-spacing: 1px;
+          line-height: 1.2;
+          font-weight: 500;
+          letter-spacing: 0.3px;
         }
         .hero-title-accent {
           display: block;
-          font-size: 1.4rem;
+          font-size: 1.3rem;
           font-weight: 300;
           color: var(--mkn-gold);
-          letter-spacing: 4px;
+          letter-spacing: 1px;
           margin-top: 8px;
-          text-transform: uppercase;
         }
         .hero-description {
-          font-size: 1.15rem;
+          font-size: 1.1rem;
           color: rgba(255, 255, 255, 0.8);
           max-width: 700px;
           margin: 0 auto 40px;
@@ -147,17 +146,16 @@ export function Hero() {
         }
         .hero-stat-value {
           font-family: var(--font-heading);
-          font-size: 2.8rem;
-          font-weight: 700;
+          font-size: 2.6rem;
+          font-weight: 500;
           color: var(--mkn-gold);
           line-height: 1;
           margin-bottom: 6px;
         }
         .hero-stat-label {
-          font-size: 0.72rem;
+          font-size: 0.75rem;
           color: rgba(255, 255, 255, 0.6);
-          letter-spacing: 1px;
-          text-transform: uppercase;
+          letter-spacing: 0.3px;
         }
         .hero-scroll-indicator {
           position: absolute;
@@ -168,10 +166,9 @@ export function Hero() {
           flex-direction: column;
           align-items: center;
           gap: 4px;
-          font-size: 0.72rem;
+          font-size: 0.75rem;
           color: rgba(255, 255, 255, 0.5);
-          letter-spacing: 1px;
-          text-transform: uppercase;
+          letter-spacing: 0.3px;
           animation: fadeIn 1.5s ease 1s forwards;
           opacity: 0;
         }
@@ -185,7 +182,7 @@ export function Hero() {
 
         @media (max-width: 768px) {
           .hero-title {
-            font-size: 2.2rem;
+            font-size: 2rem;
           }
           .hero-title-accent {
             font-size: 1.1rem;

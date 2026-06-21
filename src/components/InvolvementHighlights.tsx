@@ -60,7 +60,7 @@ export function InvolvementHighlights() {
 
                   <div className="inv-highlights">
                     <h4 className="inv-highlights-title">
-                      <Icon name="star" size={16} color="#c5a253" />
+                      <Icon name="star" size={16} color="#b8965a" />
                       {t.ui.keyAchievements}
                     </h4>
                     <div className="inv-highlights-grid">
@@ -140,7 +140,7 @@ export function InvolvementHighlights() {
         }
         .inv-tab:hover {
           color: var(--text-heading);
-          background: rgba(13, 34, 64, 0.04);
+          background: rgba(30, 58, 95, 0.04);
         }
         .inv-tab-active {
           color: var(--text-heading);

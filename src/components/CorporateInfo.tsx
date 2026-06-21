@@ -28,7 +28,7 @@ export function CorporateInfo() {
           <div className="about-facts">
             <div className="facts-card">
               <div className="facts-header">
-                <Icon name="document" size={20} color="#c5a253" />
+                <Icon name="document" size={20} color="#b8965a" />
                 <span>{t.ui.keyFacts}</span>
               </div>
               <div className="facts-list">
@@ -47,14 +47,14 @@ export function CorporateInfo() {
         <div className="vm-section">
           <div className="vm-card vm-vision">
             <div className="vm-icon-wrap">
-              <Icon name="star" size={28} color="#c5a253" />
+              <Icon name="star" size={28} color="#b8965a" />
             </div>
             <h3>{t.ui.ourVision}</h3>
             <p>{visionMission.vision}</p>
           </div>
           <div className="vm-card vm-mission">
             <div className="vm-icon-wrap">
-              <Icon name="target" size={28} color="#c5a253" />
+              <Icon name="target" size={28} color="#b8965a" />
             </div>
             <h3>{t.ui.ourMission}</h3>
             <p>{visionMission.mission}</p>
@@ -68,7 +68,7 @@ export function CorporateInfo() {
             {visionMission.values.map((val, i) => (
               <div key={i} className="value-card">
                 <div className="value-icon">
-                  <Icon name={val.icon} size={24} color="#c5a253" />
+                  <Icon name={val.icon} size={24} color="#b8965a" />
                 </div>
                 <h4>{val.title}</h4>
                 <p>{val.description}</p>
@@ -104,7 +104,7 @@ export function CorporateInfo() {
                 </div>
                 {i < orgStructure.levels.length - 1 && (
                   <div className="org-connector">
-                    <Icon name="chevron" size={20} color="#c5a253" />
+                    <Icon name="chevron" size={20} color="#b8965a" />
                   </div>
                 )}
               </div>
@@ -196,7 +196,7 @@ export function CorporateInfo() {
           font-size: 1.1rem;
           margin-bottom: 20px;
           padding-bottom: 16px;
-          border-bottom: 1px solid rgba(197, 162, 83, 0.2);
+          border-bottom: 1px solid rgba(184, 150, 90, 0.2);
         }
         .facts-list {
           display: flex;
@@ -290,7 +290,7 @@ export function CorporateInfo() {
           height: 52px;
           margin: 0 auto 16px;
           border-radius: 50%;
-          background: rgba(197, 162, 83, 0.12);
+          background: rgba(184, 150, 90, 0.12);
           display: flex;
           align-items: center;
           justify-content: center;

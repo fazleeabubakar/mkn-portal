@@ -25,7 +25,7 @@ export function Services() {
               <p className="service-desc">{service.description}</p>
               <a href="#services" className="service-action">
                 {service.action}
-                <Icon name="arrow" size={15} color="#c5a253" />
+                <Icon name="arrow" size={15} color="#b8965a" />
               </a>
             </div>
           ))}

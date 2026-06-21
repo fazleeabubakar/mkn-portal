@@ -49,20 +49,20 @@ export function Footer() {
               </div>
             </div>
             <div className="footer-address">
-              <Icon name="location" size={16} color="#c5a253" />
+              <Icon name="location" size={16} color="#b8965a" />
               <span>{t.ui.footerAddress}</span>
             </div>
             <div className="footer-contact-info">
               <div className="footer-contact-item">
-                <Icon name="phone" size={15} color="#c5a253" />
+                <Icon name="phone" size={15} color="#b8965a" />
                 <span>{t.ui.footerPhone}</span>
               </div>
               <div className="footer-contact-item">
-                <Icon name="document" size={15} color="#c5a253" />
+                <Icon name="document" size={15} color="#b8965a" />
                 <span>Fax: {t.ui.footerFax}</span>
               </div>
               <div className="footer-contact-item">
-                <Icon name="email" size={15} color="#c5a253" />
+                <Icon name="email" size={15} color="#b8965a" />
                 <span>{t.ui.footerEmail}</span>
               </div>
             </div>
@@ -111,7 +111,7 @@ export function Footer() {
             <div className="footer-social-icons">
               {['facebook', 'twitter', 'instagram', 'youtube'].map((social) => (
                 <a key={social} href="#footer" className="footer-social-icon">
-                  <Icon name={social} size={18} color="#c5a253" />
+                  <Icon name={social} size={18} color="#b8965a" />
                 </a>
               ))}
             </div>
@@ -235,7 +235,7 @@ export function Footer() {
           grid-template-columns: 2fr 1fr 1fr 1fr;
           gap: 32px;
           padding-bottom: 40px;
-          border-bottom: 1px solid rgba(197, 162, 83, 0.15);
+          border-bottom: 1px solid rgba(184, 150, 90, 0.15);
         }
         .footer-logo {
           display: flex;
@@ -331,8 +331,8 @@ export function Footer() {
           width: 40px;
           height: 40px;
           border-radius: 50%;
-          background: rgba(197, 162, 83, 0.1);
-          border: 1px solid rgba(197, 162, 83, 0.25);
+          background: rgba(184, 150, 90, 0.1);
+          border: 1px solid rgba(184, 150, 90, 0.25);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -361,7 +361,7 @@ export function Footer() {
         .footer-newsletter-input input {
           padding: 10px 16px;
           border-radius: 8px;
-          border: 1px solid rgba(197, 162, 83, 0.3);
+          border: 1px solid rgba(184, 150, 90, 0.3);
           background: rgba(255, 255, 255, 0.08);
           color: var(--mkn-white);
           font-size: 0.85rem;
@@ -384,7 +384,7 @@ export function Footer() {
         .footer-copyright {
           background: #061a33;
           padding: 16px 0;
-          border-top: 1px solid rgba(197, 162, 83, 0.1);
+          border-top: 1px solid rgba(184, 150, 90, 0.1);
         }
         .copyright-inner {
           display: flex;

@@ -45,7 +45,7 @@ function StatCard({ stat, start }: { stat: any; start: boolean }) {
   return (
     <div className="stat-card">
       <div className="stat-icon">
-        <Icon name={stat.icon} size={24} color="#c5a253" />
+        <Icon name={stat.icon} size={24} color="#b8965a" />
       </div>
       <div className="stat-value">
         {formatNumber(count)}
@@ -101,7 +101,7 @@ export function Statistics() {
 
       <style>{`
         .stats-section {
-          background: linear-gradient(135deg, #0d2240 0%, #142d4c 50%, #0d2240 100%);
+          background: linear-gradient(135deg, #1e3a5f 0%, #2a4a6e 50%, #1e3a5f 100%);
           position: relative;
           overflow: hidden;
         }
@@ -112,8 +112,8 @@ export function Statistics() {
           right: 0;
           bottom: 0;
           background-image:
-            radial-gradient(circle at 15% 20%, rgba(197, 162, 83, 0.08) 0%, transparent 40%),
-            radial-gradient(circle at 85% 70%, rgba(26, 58, 92, 0.5) 0%, transparent 40%);
+            radial-gradient(circle at 15% 20%, rgba(184, 150, 90, 0.08) 0%, transparent 40%),
+            radial-gradient(circle at 85% 70%, rgba(58, 90, 124, 0.5) 0%, transparent 40%);
         }
         .stats-grid {
           display: grid;
@@ -122,7 +122,7 @@ export function Statistics() {
         }
         .stat-card {
           background: rgba(255, 255, 255, 0.05);
-          border: 1px solid rgba(197, 162, 83, 0.2);
+          border: 1px solid rgba(184, 150, 90, 0.2);
           border-radius: 16px;
           padding: 28px 20px;
           text-align: center;
@@ -130,8 +130,8 @@ export function Statistics() {
           transition: all 0.3s ease;
         }
         .stat-card:hover {
-          background: rgba(197, 162, 83, 0.08);
-          border-color: rgba(197, 162, 83, 0.5);
+          background: rgba(184, 150, 90, 0.08);
+          border-color: rgba(184, 150, 90, 0.5);
           transform: translateY(-6px);
           box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
         }
@@ -140,7 +140,7 @@ export function Statistics() {
           height: 52px;
           margin: 0 auto 16px;
           border-radius: 12px;
-          background: rgba(197, 162, 83, 0.15);
+          background: rgba(184, 150, 90, 0.15);
           display: flex;
           align-items: center;
           justify-content: center;

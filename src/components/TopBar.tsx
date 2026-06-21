@@ -12,7 +12,7 @@ export function TopBar() {
         <div className="container topbar-inner">
           <div className="topbar-left">
             <span className="topbar-gov-label">
-              <Icon name="shield" size={14} color="#c5a253" />
+              <Icon name="shield" size={14} color="#b8965a" />
               {t.ui.officialPortal}
             </span>
           </div>
@@ -41,7 +41,7 @@ export function TopBar() {
               aria-label="Toggle dark mode"
               title={theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
             >
-              <Icon name={theme === 'dark' ? 'sun' : 'moon'} size={16} color="#c5a253" />
+              <Icon name={theme === 'dark' ? 'sun' : 'moon'} size={16} color="#b8965a" />
             </button>
             <div className="topbar-links">
               <a href="#accessibility" className="topbar-link">{t.ui.accessibility}</a>
@@ -99,7 +99,7 @@ export function TopBar() {
         .topbar-pill:hover {
           color: var(--mkn-gold);
           border-color: var(--mkn-gold);
-          background: rgba(197, 162, 83, 0.1);
+          background: rgba(184, 150, 90, 0.1);
         }
         .topbar-sep {
           color: rgba(255, 255, 255, 0.3);
@@ -144,14 +144,14 @@ export function TopBar() {
           width: 28px;
           height: 28px;
           border-radius: 50%;
-          background: rgba(197, 162, 83, 0.12);
-          border: 1px solid rgba(197, 162, 83, 0.3);
+          background: rgba(184, 150, 90, 0.12);
+          border: 1px solid rgba(184, 150, 90, 0.3);
           cursor: pointer;
           transition: all 0.25s ease;
           flex-shrink: 0;
         }
         .theme-toggle:hover {
-          background: rgba(197, 162, 83, 0.25);
+          background: rgba(184, 150, 90, 0.25);
           transform: scale(1.1);
         }
         .topbar-link {
