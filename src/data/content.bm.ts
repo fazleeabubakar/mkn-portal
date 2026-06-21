@@ -42,7 +42,7 @@ export const bm = {
     // Data Jenayah
     crimeDataTitle: 'Statistik Jenayah Mengikut Daerah',
     crimeDataSubtitle: 'Data statistik kes jenayah yang dilaporkan merentas daerah di Malaysia, disusun untuk kesedaran awam dan perancangan keselamatan.',
-    crimeDataLoading: 'Memuatkan data jenayah...',
+    crimeDataLoading: 'Sedang memuatkan data terkini PDRM...',
     crimeDataError: 'Gagal memuatkan data jenayah. Sila cuba lagi kemudian.',
     crimeDataEmpty: 'Tiada data jenayah tersedia pada masa ini.',
     crimeDataDistricts: 'Daerah',

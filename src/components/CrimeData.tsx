@@ -86,8 +86,18 @@ export function CrimeData() {
 
         {loading && (
           <div className="crime-loading">
-            <Icon name="document" size={32} color="var(--icon-default)" />
-            <p>{t.ui.crimeDataLoading}</p>
+            <div className="crime-spinner">
+              <div className="crime-spinner-ring" />
+              <div className="crime-spinner-shield">
+                <Icon name="shield" size={20} color="var(--mkn-gold)" />
+              </div>
+            </div>
+            <p className="crime-loading-text">{t.ui.crimeDataLoading}</p>
+            <div className="crime-loading-dots">
+              <span />
+              <span />
+              <span />
+            </div>
           </div>
         )}
 
@@ -238,11 +248,72 @@ export function CrimeData() {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 12px;
-          padding: 48px;
+          gap: 16px;
+          padding: 64px 48px;
           text-align: center;
         }
-        .crime-loading p,
+
+        /* Spinner */
+        .crime-spinner {
+          position: relative;
+          width: 64px;
+          height: 64px;
+        }
+        .crime-spinner-ring {
+          position: absolute;
+          inset: 0;
+          border: 3px solid var(--border-default);
+          border-top: 3px solid var(--mkn-gold);
+          border-radius: 50%;
+          animation: crime-spin 1.2s linear infinite;
+        }
+        .crime-spinner-shield {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        @keyframes crime-spin {
+          to { transform: rotate(360deg); }
+        }
+
+        /* Loading text */
+        .crime-loading-text {
+          font-family: var(--font-heading);
+          font-size: 0.95rem;
+          color: var(--text-heading);
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          animation: crime-pulse 2s ease-in-out infinite;
+        }
+        @keyframes crime-pulse {
+          0%, 100% { opacity: 0.5; }
+          50% { opacity: 1; }
+        }
+
+        /* Loading dots */
+        .crime-loading-dots {
+          display: flex;
+          gap: 6px;
+        }
+        .crime-loading-dots span {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: var(--mkn-gold);
+          animation: crime-dot-bounce 1.4s ease-in-out infinite;
+        }
+        .crime-loading-dots span:nth-child(1) { animation-delay: 0s; }
+        .crime-loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+        .crime-loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes crime-dot-bounce {
+          0%, 80%, 100% { transform: scale(0.4); opacity: 0.3; }
+          40% { transform: scale(1); opacity: 1; }
+        }
+
         .crime-empty p {
           color: var(--text-gray);
           font-size: 0.95rem;

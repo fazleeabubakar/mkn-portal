@@ -42,7 +42,7 @@ export const en = {
     // Crime Data
     crimeDataTitle: 'Crime Statistics by District',
     crimeDataSubtitle: 'Statistical data on reported crime cases across Malaysian districts, compiled for public awareness and security planning.',
-    crimeDataLoading: 'Loading crime data...',
+    crimeDataLoading: 'Loading latest PDRM crime data...',
     crimeDataError: 'Failed to load crime data. Please try again later.',
     crimeDataEmpty: 'No crime data available at this time.',
     crimeDataDistricts: 'Districts',
