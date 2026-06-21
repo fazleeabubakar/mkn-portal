@@ -1,0 +1,54 @@
+name: Update MKN News Daily
+
+on:
+  # Auto-run every day at 8:00 AM Malaysia time (UTC+8 = 00:00 UTC)
+  schedule:
+    - cron: '0 0 * * *'
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run news scraper
+        run: python auto_scrap_mkn.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --name-only public/berita_mkn.json
+          if git diff --quiet public/berita_mkn.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in berita_mkn.json"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in berita_mkn.json"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "MKN News Bot"
+          git config user.email "mkn-news-bot@users.noreply.github.com"
+          git add public/berita_mkn.json
+          COMMIT_MSG="Auto-update berita_mkn.json ($(date +'%d %b %Y'))"
+          git commit -m "$COMMIT_MSG"
+          git push
