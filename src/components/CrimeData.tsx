@@ -21,21 +21,41 @@ export function CrimeData() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expandedDistrict, setExpandedDistrict] = useState<string | null>(null);
+  const [dataSource, setDataSource] = useState<'mysql' | 'json' | null>(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data_jenayah.json`)
+    // Try MySQL API first, fallback to static JSON
+    const API_URL = 'http://localhost:3001/api/crime-data';
+    const JSON_URL = `${import.meta.env.BASE_URL}data_jenayah.json`;
+
+    fetch(API_URL)
       .then((res) => {
-        if (!res.ok) throw new Error('Failed to load data');
+        if (!res.ok) throw new Error('API not available');
         return res.json();
       })
       .then((json: DistrictData[]) => {
         setData(json);
+        setDataSource('mysql');
         if (json.length > 0) setExpandedDistrict(json[0].daerah);
         setLoading(false);
       })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
+      .catch(() => {
+        // Fallback to static JSON file
+        fetch(JSON_URL)
+          .then((res) => {
+            if (!res.ok) throw new Error('Failed to load data');
+            return res.json();
+          })
+          .then((json: DistrictData[]) => {
+            setData(json);
+            setDataSource('json');
+            if (json.length > 0) setExpandedDistrict(json[0].daerah);
+            setLoading(false);
+          })
+          .catch((err) => {
+            setError(err.message);
+            setLoading(false);
+          });
       });
   }, []);
 
@@ -55,6 +75,12 @@ export function CrimeData() {
         <div className="section-header">
           <h2>{t.ui.crimeDataTitle}</h2>
           <p className="subtitle">{t.ui.crimeDataSubtitle}</p>
+          {dataSource && (
+            <span className="crime-source-badge">
+              <span className="crime-source-dot" style={{ background: dataSource === 'mysql' ? '#22c55e' : '#f59e0b' }} />
+              {dataSource === 'mysql' ? 'MySQL Database' : 'Static JSON'}
+            </span>
+          )}
           <div className="section-divider" />
         </div>
 
@@ -186,6 +212,26 @@ export function CrimeData() {
       </div>
 
       <style>{`
+        .crime-source-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 0.75rem;
+          font-weight: 600;
+          padding: 4px 12px;
+          border-radius: 100px;
+          background: var(--tag-bg);
+          color: var(--text-heading);
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          margin-top: 4px;
+        }
+        .crime-source-dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+        }
+
         .crime-loading,
         .crime-error,
         .crime-empty {

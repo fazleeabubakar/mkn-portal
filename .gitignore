@@ -10,3 +10,6 @@ dist-ssr
 *.log
 public/mkn-logo.png
 public/mkn-logo-official.png
+server/node_modules
+server/mysql-data
+server/mysql-data2
