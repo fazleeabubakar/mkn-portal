@@ -3,7 +3,9 @@
 export const bm = {
   ui: {
     // TopBar
-    officialPortal: 'Portal rasmi Kerajaan Malaysia',
+    officialPortal: 'Portal Rasmi Kerajaan Malaysia',
+    intranet: 'INTRANET',
+    webmail: 'WEBMAIL',
     accessibility: 'Kebolehcapaian',
     sitemap: 'Peta Laman',
     faq: 'FAQ',
@@ -66,27 +68,34 @@ export const bm = {
     subscribeToUpdates: 'Langgan kemas kini MKN',
     enterEmail: 'Masukkan alamat e-mel anda',
     subscribe: 'Langgan',
-    copyright: '© 2026 Majlis Keselamatan Negara. Hak Cipta Terpelihara.',
+    copyright: 'Hak Cipta Terpelihara Majlis Keselamatan Negara (MKN), Jabatan Perdana Menteri (JPM), Malaysia',
     privacyPolicy: 'Dasar Privasi',
     termsOfUse: 'Terma Penggunaan',
     disclaimer: 'Penafian',
     cookiePolicy: 'Dasar Kuki',
     lastUpdated: 'Kemas Kini Terakhir: 19 Jun 2026',
+    // Footer details
+    footerAddress: 'Jabatan Perdana Menteri, Blok Barat, Bangunan Perdana Putra, Pusat Pentadbiran Kerajaan Persekutuan, 62502 Putrajaya',
+    footerPhone: '+603-8888 4000',
+    footerFax: '+603-8888 4100',
+    footerEmail: 'pro@mkn.gov.my',
+    footerMainLinks: 'Pautan Utama',
+    footerExternalLinks: 'Pautan Luar',
+    footerLegalLinks: 'Pautan Undang-Undang',
+    securityPolicy: 'Dasar Keselamatan',
+    archive: 'Arkib',
   },
 
   navItems: [
-    { label: 'Utama', href: '#home' },
-    { label: 'Maklumat Korporat', href: '#corporate' },
-    { label: 'Penglibatan MKN', href: '#involvement' },
-    { label: 'Berita & Pengumuman', href: '#news' },
-    { label: 'Data Jenayah', href: '#crime-data' },
-    { label: 'Statistik', href: '#statistics' },
-    { label: 'Perkhidmatan', href: '#services' },
+    { label: 'Laman Utama', href: '#home' },
+    { label: 'Korporat', href: '#corporate' },
+    { label: 'Awam', href: '#public' },
+    { label: 'Warga', href: '#citizens' },
     { label: 'Hubungi', href: '#contact' },
   ],
 
   heroContent: {
-    badge: 'Portal Rasmi · Official Portal',
+    badge: 'Portal Rasmi MKN',
     title: 'Majlis Keselamatan Negara',
     subtitle: 'Majlis Keselamatan Negara Malaysia',
     description: 'Melindungi negara melalui dasar keselamatan strategik, penyelarasan pengurusan bencana, dan respons krisis — memastikan Malaysia yang teguh dan selamat untuk semua.',
@@ -269,10 +278,9 @@ export const bm = {
   ],
 
   footerLinks: {
-    about: ['Tentang MKN', 'Wawasan & Misi', 'Struktur Organisasi', 'Kepimpinan', 'Sejarah'],
-    services: ['Pengurusan Bencana', 'Dasar Keselamatan Negara', 'Antipengganas', 'Keselamatan Siber', 'Respons Krisis'],
-    resources: ['Arahan MKN No. 20', 'Penerbitan & Laporan', 'Pusat Media', 'FAQ', 'Sebutharga & Perolehan'],
-    government: ['Jabatan Perdana Menteri', 'Kerajaan Malaysia', 'Portal Perkhidmatan Awam', 'Portal eKL', 'Malaysia.gov.my'],
+    main: ['Laman Utama', 'Korporat', 'Awam', 'Warga', 'Hubungi'],
+    external: ['Pejabat Perdana Menteri', 'Portal JPM', 'MAMPU', 'MyGovernment'],
+    legal: ['Penafian', 'Dasar Privasi', 'Dasar Keselamatan', 'Arkib'],
   },
 
   emergencyContacts: [

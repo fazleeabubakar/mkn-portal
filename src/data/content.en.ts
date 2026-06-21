@@ -3,7 +3,9 @@
 export const en = {
   ui: {
     // TopBar
-    officialPortal: 'An official portal of the Malaysian Government',
+    officialPortal: 'Official Portal of the Malaysian Government',
+    intranet: 'INTRANET',
+    webmail: 'WEBMAIL',
     accessibility: 'Accessibility',
     sitemap: 'Sitemap',
     faq: 'FAQ',
@@ -66,27 +68,34 @@ export const en = {
     subscribeToUpdates: 'Subscribe to MKN updates',
     enterEmail: 'Enter your email address',
     subscribe: 'Subscribe',
-    copyright: '© 2026 Majlis Keselamatan Negara. All Rights Reserved.',
+    copyright: 'Copyright Reserved National Security Council (MKN), Prime Minister\'s Department (JPM), Malaysia',
     privacyPolicy: 'Privacy Policy',
     termsOfUse: 'Terms of Use',
     disclaimer: 'Disclaimer',
     cookiePolicy: 'Cookie Policy',
     lastUpdated: 'Last Updated: 19 June 2026',
+    // Footer details
+    footerAddress: 'Prime Minister\'s Department, West Block, Perdana Putra Building, Federal Government Administrative Centre, 62502 Putrajaya',
+    footerPhone: '+603-8888 4000',
+    footerFax: '+603-8888 4100',
+    footerEmail: 'pro@mkn.gov.my',
+    footerMainLinks: 'Main Links',
+    footerExternalLinks: 'External Links',
+    footerLegalLinks: 'Legal Links',
+    securityPolicy: 'Security Policy',
+    archive: 'Archive',
   },
 
   navItems: [
     { label: 'Home', href: '#home' },
-    { label: 'Corporate Info', href: '#corporate' },
-    { label: 'MKN Involvement', href: '#involvement' },
-    { label: 'News & Announcements', href: '#news' },
-    { label: 'Crime Data', href: '#crime-data' },
-    { label: 'Statistics', href: '#statistics' },
-    { label: 'Services', href: '#services' },
+    { label: 'Corporate', href: '#corporate' },
+    { label: 'Public', href: '#public' },
+    { label: 'Citizens', href: '#citizens' },
     { label: 'Contact', href: '#contact' },
   ],
 
   heroContent: {
-    badge: 'Portal Rasmi · Official Portal',
+    badge: 'Official MKN Portal',
     title: 'Majlis Keselamatan Negara',
     subtitle: 'National Security Council of Malaysia',
     description: 'Safeguarding the nation through strategic security policies, disaster management coordination, and crisis response — ensuring a resilient and secure Malaysia for all.',
@@ -269,10 +278,9 @@ export const en = {
   ],
 
   footerLinks: {
-    about: ['About MKN', 'Vision & Mission', 'Organisation Structure', 'Leadership', 'History'],
-    services: ['Disaster Management', 'National Security Policy', 'Counter-Terrorism', 'Cybersecurity', 'Crisis Response'],
-    resources: ['MKN Directive No. 20', 'Publications & Reports', 'Media Centre', 'FAQ', 'Tender & Procurement'],
-    government: ["Prime Minister's Department", 'Government of Malaysia', 'Public Service Portal', 'eKL Portal', 'Malaysia.gov.my'],
+    main: ['Home', 'Corporate', 'Public', 'Citizens', 'Contact'],
+    external: ['Prime Minister\'s Department', 'JPM Portal', 'MAMPU', 'MyGovernment'],
+    legal: ['Disclaimer', 'Privacy Policy', 'Security Policy', 'Archive'],
   },
 
   emergencyContacts: [

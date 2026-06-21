@@ -6,10 +6,11 @@ export function Hero() {
   const heroContent = t.heroContent;
   return (
     <section id="home" className="hero">
-      <div className="hero-bg-pattern" />
+      <div className="hero-bg-image" />
       <div className="hero-overlay" />
+      <div className="hero-bg-pattern" />
       <div className="container hero-content">
-        <div className="hero-badge">
+        <div className="hero-badge gov-badge">
           <span className="hero-badge-dot" />
           {heroContent.badge}
         </div>
@@ -46,12 +47,31 @@ export function Hero() {
       <style>{`
         .hero {
           position: relative;
-          min-height: calc(100vh - var(--header-height) - var(--topbar-height));
-          background: linear-gradient(135deg, #0d2240 0%, #142d4c 40%, #1a3a5c 100%);
+          min-height: calc(100vh - var(--header-height) - var(--topbar-height) - 2px);
           display: flex;
           align-items: center;
           overflow: hidden;
           padding: 80px 0 60px;
+        }
+        .hero-bg-image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url('${import.meta.env.BASE_URL}inv-security.png');
+          background-size: cover;
+          background-position: center 30%;
+          background-repeat: no-repeat;
+          opacity: 0.15;
+        }
+        .hero-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(135deg, rgba(13, 34, 64, 0.95) 0%, rgba(20, 45, 76, 0.88) 40%, rgba(26, 58, 92, 0.82) 100%);
         }
         .hero-bg-pattern {
           position: absolute;
@@ -60,18 +80,9 @@ export function Hero() {
           right: 0;
           bottom: 0;
           background-image:
-            radial-gradient(circle at 20% 50%, rgba(197, 162, 83, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 80% 30%, rgba(26, 58, 92, 0.4) 0%, transparent 40%),
-            radial-gradient(circle at 60% 80%, rgba(197, 162, 83, 0.06) 0%, transparent 50%);
-        }
-        .hero-overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background:
-            linear-gradient(180deg, transparent 0%, rgba(13, 34, 64, 0.4) 100%);
+            radial-gradient(circle at 20% 50%, rgba(197, 162, 83, 0.08) 0%, transparent 50%),
+            radial-gradient(circle at 80% 30%, rgba(26, 58, 92, 0.3) 0%, transparent 40%),
+            radial-gradient(circle at 60% 80%, rgba(197, 162, 83, 0.04) 0%, transparent 50%);
         }
         .hero-content {
           position: relative;
@@ -81,17 +92,6 @@ export function Hero() {
           animation: fadeInUp 0.8s ease;
         }
         .hero-badge {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          padding: 8px 20px;
-          background: rgba(197, 162, 83, 0.15);
-          border: 1px solid rgba(197, 162, 83, 0.4);
-          border-radius: 100px;
-          font-size: 0.8rem;
-          color: var(--mkn-gold-light);
-          font-weight: 600;
-          letter-spacing: 0.5px;
           margin-bottom: 28px;
         }
         .hero-badge-dot {
@@ -174,6 +174,13 @@ export function Hero() {
           text-transform: uppercase;
           animation: fadeIn 1.5s ease 1s forwards;
           opacity: 0;
+        }
+
+        [data-theme="dark"] .hero-bg-image {
+          opacity: 0.08;
+        }
+        [data-theme="dark"] .hero-overlay {
+          background: linear-gradient(135deg, rgba(10, 14, 26, 0.97) 0%, rgba(13, 17, 23, 0.94) 40%, rgba(18, 24, 38, 0.90) 100%);
         }
 
         @media (max-width: 768px) {

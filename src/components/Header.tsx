@@ -35,18 +35,20 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <a href="#contact" className="btn btn-primary nav-cta" onClick={() => setMobileOpen(false)}>
-            {t.ui.emergencyContact}
-          </a>
         </nav>
 
-        <button
-          className="mobile-toggle"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
-        >
-          <Icon name={mobileOpen ? 'close' : 'menu'} size={26} color="var(--icon-default)" />
-        </button>
+        <div className="header-actions">
+          <button className="search-btn" aria-label="Search">
+            <Icon name="search" size={20} color="var(--icon-default)" />
+          </button>
+          <button
+            className="mobile-toggle"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle menu"
+          >
+            <Icon name={mobileOpen ? 'close' : 'menu'} size={26} color="var(--icon-default)" />
+          </button>
+        </div>
       </div>
 
       <style>{`
@@ -133,10 +135,22 @@ export function Header() {
         .nav-link:hover::after {
           width: 60%;
         }
-        .nav-cta {
-          margin-left: 8px;
-          padding: 10px 20px;
-          font-size: 0.82rem;
+        .header-actions {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+        .search-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 36px;
+          height: 36px;
+          border-radius: 6px;
+          transition: background 0.2s;
+        }
+        .search-btn:hover {
+          background: rgba(197, 162, 83, 0.1);
         }
         .mobile-toggle {
           display: none;
@@ -170,12 +184,6 @@ export function Header() {
             width: 100%;
             padding: 14px;
           }
-          .nav-cta {
-            margin-left: 0;
-            margin-top: 8px;
-            width: 100%;
-            justify-content: center;
-          }
           .mobile-toggle {
             display: block;
           }
@@ -185,6 +193,7 @@ export function Header() {
           .logo-subtitle { display: none; }
           .logo-title { font-size: 0.8rem; }
           .logo-img { width: 44px; height: 44px; }
+          .search-btn { width: 32px; height: 32px; }
         }
       `}</style>
     </header>

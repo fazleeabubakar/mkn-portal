@@ -39,6 +39,7 @@ export function Footer() {
       {/* Main Footer */}
       <div className="footer-main">
         <div className="container footer-grid">
+          {/* Col 1: MKN Brand + Address */}
           <div className="footer-brand">
             <div className="footer-logo">
               <img src={`${import.meta.env.BASE_URL}mkn-emblem.png`} alt="Majlis Keselamatan Negara" className="footer-logo-img" />
@@ -47,62 +48,57 @@ export function Footer() {
                 <div className="footer-logo-sub">{t.ui.logoSubtitle}</div>
               </div>
             </div>
-            <p className="footer-desc">
-              Safeguarding Malaysia's sovereignty, territorial integrity, and public safety through strategic security policies, disaster management, and crisis coordination.
-            </p>
             <div className="footer-address">
               <Icon name="location" size={16} color="#c5a253" />
-              <span>Aras 5-9, Blok D4, Kompleks D, Pusat Pentadbiran Kerajaan Persekutuan, 62502 Putrajaya, Malaysia</span>
+              <span>{t.ui.footerAddress}</span>
             </div>
             <div className="footer-contact-info">
               <div className="footer-contact-item">
                 <Icon name="phone" size={15} color="#c5a253" />
-                <span>+603-8888 4000</span>
+                <span>{t.ui.footerPhone}</span>
+              </div>
+              <div className="footer-contact-item">
+                <Icon name="document" size={15} color="#c5a253" />
+                <span>Fax: {t.ui.footerFax}</span>
               </div>
               <div className="footer-contact-item">
                 <Icon name="email" size={15} color="#c5a253" />
-                <span>pro@mkn.gov.my</span>
+                <span>{t.ui.footerEmail}</span>
               </div>
             </div>
           </div>
 
+          {/* Col 2: Main Links */}
           <div className="footer-col">
-            <h4>{t.ui.aboutMKN}</h4>
+            <h4>{t.ui.footerMainLinks}</h4>
             <ul>
-              {footerLinks.about.map((link, i) => (
-                <li key={i}><a href="#corporate">{link}</a></li>
+              {footerLinks.main.map((link, i) => (
+                <li key={i}><a href="#home">{link}</a></li>
               ))}
             </ul>
           </div>
 
+          {/* Col 3: External Links */}
           <div className="footer-col">
-            <h4>{t.ui.ourServices}</h4>
+            <h4>{t.ui.footerExternalLinks}</h4>
             <ul>
-              {footerLinks.services.map((link, i) => (
-                <li key={i}><a href="#involvement">{link}</a></li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="footer-col">
-            <h4>{t.ui.resources}</h4>
-            <ul>
-              {footerLinks.resources.map((link, i) => (
-                <li key={i}><a href="#services">{link}</a></li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="footer-col">
-            <h4>{t.ui.government}</h4>
-            <ul>
-              {footerLinks.government.map((link, i) => (
+              {footerLinks.external.map((link, i) => (
                 <li key={i}>
                   <a href="#footer" className="footer-ext-link">
                     {link}
-                    <Icon name="external" size={12} color="#6b7280" />
+                    <Icon name="external" size={12} color="rgba(255,255,255,0.4)" />
                   </a>
                 </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 4: Legal Links */}
+          <div className="footer-col">
+            <h4>{t.ui.footerLegalLinks}</h4>
+            <ul>
+              {footerLinks.legal.map((link, i) => (
+                <li key={i}><a href="#legal">{link}</a></li>
               ))}
             </ul>
           </div>
@@ -140,7 +136,7 @@ export function Footer() {
             <a href="#privacy">{t.ui.privacyPolicy}</a>
             <a href="#terms">{t.ui.termsOfUse}</a>
             <a href="#disclaimer">{t.ui.disclaimer}</a>
-            <a href="#cookies">{t.ui.cookiePolicy}</a>
+            <a href="#security">{t.ui.securityPolicy}</a>
           </div>
           <div className="copyright-last">
             <span>{t.ui.lastUpdated}</span>
@@ -236,7 +232,7 @@ export function Footer() {
         }
         .footer-grid {
           display: grid;
-          grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+          grid-template-columns: 2fr 1fr 1fr 1fr;
           gap: 32px;
           padding-bottom: 40px;
           border-bottom: 1px solid rgba(197, 162, 83, 0.15);
@@ -245,7 +241,7 @@ export function Footer() {
           display: flex;
           align-items: center;
           gap: 12px;
-          margin-bottom: 16px;
+          margin-bottom: 20px;
         }
         .footer-logo-img {
           width: 56px;
@@ -262,23 +258,18 @@ export function Footer() {
           font-size: 0.72rem;
           color: var(--mkn-gold);
         }
-        .footer-desc {
-          font-size: 0.82rem;
-          color: rgba(255, 255, 255, 0.55);
-          line-height: 1.7;
-          margin-bottom: 16px;
-        }
         .footer-address {
           display: flex;
           gap: 8px;
           font-size: 0.78rem;
           color: rgba(255, 255, 255, 0.5);
-          margin-bottom: 12px;
+          margin-bottom: 16px;
           line-height: 1.6;
         }
         .footer-contact-info {
           display: flex;
-          gap: 20px;
+          flex-direction: column;
+          gap: 8px;
         }
         .footer-contact-item {
           display: flex;

@@ -19,10 +19,10 @@ export default function App() {
         <Header />
         <main>
           <Hero />
-          <CorporateInfo />
-          <InvolvementHighlights />
           <NewsAnnouncements />
           <CrimeData />
+          <CorporateInfo />
+          <InvolvementHighlights />
           <Statistics />
           <Services />
         </main>
