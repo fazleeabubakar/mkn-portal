@@ -2,17 +2,17 @@
   {
     "id": 1,
     "bm": {
-      "category": "PROGRAM JUALAN RAHMAH MADANI",
-      "date": "29 Jun 2026",
-      "title": "DERMA DARAH PENANG",
+      "category": "APA ITU PENDERMAAN ORGAN?",
+      "date": "30 Jun 2026",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "29 Jun 2026",
-      "title": "DERMA DARAH PENANG",
+      "date": "30 Jun 2026",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
@@ -21,18 +21,75 @@
   {
     "id": 2,
     "bm": {
-      "category": "Komunikasi Strategik",
-      "date": "29 Jun 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "category": "APA ITU PENDERMAAN ORGAN?",
+      "date": "30 Jun 2026",
+      "title": "AKTIVITI PENGUATKUASAAN KPDN",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "29 Jun 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "30 Jun 2026",
+      "title": "AKTIVITI PENGUATKUASAAN KPDN",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 3,
+    "bm": {
+      "category": "APA ITU PENDERMAAN ORGAN?",
+      "date": "30 Jun 2026",
+      "title": "KEMPEN INTERNET SELAMAT",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "30 Jun 2026",
+      "title": "KEMPEN INTERNET SELAMAT",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 4,
+    "bm": {
+      "category": "APA ITU PENDERMAAN ORGAN?",
+      "date": "30 Jun 2026",
+      "title": "AWAS ANDA SENTIASA DI PERHATIKAN",
+      "excerpt": "Pelaksanaan tugas secara Bekerja Dari Rumah (BDR) adalah satu amanah yang memerlukan tahap disiplin dan profesionalisme yang tinggi. BDR menuntut s...",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "30 Jun 2026",
+      "title": "AWAS ANDA SENTIASA DI PERHATIKAN",
+      "excerpt": "Pelaksanaan tugas secara Bekerja Dari Rumah (BDR) adalah satu amanah yang memerlukan tahap disiplin dan profesionalisme yang tinggi. BDR menuntut s...",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 5,
+    "bm": {
+      "category": "Komunikasi Strategik",
+      "date": "30 Jun 2026",
+      "title": "APA ITU PENDERMAAN ORGAN?",
+      "excerpt": "Pendermaan organ ialah proses pemindahan organ atau tisu yang sihat daripada seseorang (penderma) kepada pesakit lain (penerima) yang mengalami keg...",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "30 Jun 2026",
+      "title": "APA ITU PENDERMAAN ORGAN?",
+      "excerpt": "Pendermaan organ ialah proses pemindahan organ atau tisu yang sihat daripada seseorang (penderma) kepada pesakit lain (penerima) yang mengalami keg...",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
