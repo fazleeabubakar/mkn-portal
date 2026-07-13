@@ -2,18 +2,18 @@
   {
     "id": 1,
     "bm": {
-      "category": "Komunikasi Strategik",
-      "date": "10 Julai 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "13 Julai 2026",
+      "title": "SATU KLIK BOLEH MEMBAWA PADAH",
+      "excerpt": "Warga emas merupakan antara golongan yang paling kerap menjadi sasaran penipuan dalam talian. Oleh itu, marilah kita bersama-sama membantu melindun...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "10 Julai 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "date": "13 Julai 2026",
+      "title": "SATU KLIK BOLEH MEMBAWA PADAH",
+      "excerpt": "Warga emas merupakan antara golongan yang paling kerap menjadi sasaran penipuan dalam talian. Oleh itu, marilah kita bersama-sama membantu melindun...",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -22,17 +22,74 @@
     "id": 2,
     "bm": {
       "category": "PROGRAM JUALAN RAHMAH MADANI",
-      "date": "10 Julai 2026",
-      "title": "LIMA RUMAH MUSNAH DALAM KEBAKARAN DI KOTA MARUDU",
-      "excerpt": "OPERASI: Pasukan bomba menjalankan operasi memadam kebakaran di lokasi kejadian.",
+      "date": "13 Julai 2026",
+      "title": "NOTIFIKASI HAJI: DEPOSIT KENA CAPAI RM15,000, BERJALAN 10,000 LANGKAH SEHARI...",
+      "excerpt": "Lembaga Tabung Haji (TH) mula menghantar notifikasi peringatan kepada bakal jemaah haji musim 1448H/2027M dan 1449H/2028M supaya membuat persediaan...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "10 Julai 2026",
-      "title": "LIMA RUMAH MUSNAH DALAM KEBAKARAN DI KOTA MARUDU",
-      "excerpt": "OPERASI: Pasukan bomba menjalankan operasi memadam kebakaran di lokasi kejadian.",
+      "date": "13 Julai 2026",
+      "title": "NOTIFIKASI HAJI: DEPOSIT KENA CAPAI RM15,000, BERJALAN 10,000 LANGKAH SEHARI...",
+      "excerpt": "Lembaga Tabung Haji (TH) mula menghantar notifikasi peringatan kepada bakal jemaah haji musim 1448H/2027M dan 1449H/2028M supaya membuat persediaan...",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 3,
+    "bm": {
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "13 Julai 2026",
+      "title": "ANTARA BENCANA DAN KEMALANGAN",
+      "excerpt": "Ramai masih keliru dengan perbezaannya. Hakikatnya, tidak semua kejadian dikategorikan sebagai bencana. Bencana ialah kejadian yang memberi impak b...",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "13 Julai 2026",
+      "title": "ANTARA BENCANA DAN KEMALANGAN",
+      "excerpt": "Ramai masih keliru dengan perbezaannya. Hakikatnya, tidak semua kejadian dikategorikan sebagai bencana. Bencana ialah kejadian yang memberi impak b...",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 4,
+    "bm": {
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "13 Julai 2026",
+      "title": "STRATEGI PEMBUDAYAAN INTEGRITI NASIONAL",
+      "excerpt": "Menghayati prinsip Rukun Negara dan menyemai semangat patriotisme melalui pendidikan, penglibatan komuniti serta pengamalan nilai murni. Usaha ini ...",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "13 Julai 2026",
+      "title": "STRATEGI PEMBUDAYAAN INTEGRITI NASIONAL",
+      "excerpt": "Menghayati prinsip Rukun Negara dan menyemai semangat patriotisme melalui pendidikan, penglibatan komuniti serta pengamalan nilai murni. Usaha ini ...",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 5,
+    "bm": {
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "13 Julai 2026",
+      "title": "SEKOLAH TEMPAT MENIMBA ILMU, BUKAN MEDAN KEGANASAN",
+      "excerpt": "Setiap murid berhak hadir ke sekolah dengan rasa selamat dan pulang ke rumah tanpa sebarang ketakutan.",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "13 Julai 2026",
+      "title": "SEKOLAH TEMPAT MENIMBA ILMU, BUKAN MEDAN KEGANASAN",
+      "excerpt": "Setiap murid berhak hadir ke sekolah dengan rasa selamat dan pulang ke rumah tanpa sebarang ketakutan.",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
