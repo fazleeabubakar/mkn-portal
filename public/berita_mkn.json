@@ -2,18 +2,18 @@
   {
     "id": 1,
     "bm": {
-      "category": "Komunikasi Strategik",
-      "date": "17 Julai 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "20 Julai 2026",
+      "title": "LAPORAN OP MOTOSIKAL (OSJ) DAN OP MABUK JSPT MELAKA",
+      "excerpt": "Cegah dan Kawal- Penyakit Demam Denggi di Musim Banjir",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "17 Julai 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "date": "20 Julai 2026",
+      "title": "LAPORAN OP MOTOSIKAL (OSJ) DAN OP MABUK JSPT MELAKA",
+      "excerpt": "Cegah dan Kawal- Penyakit Demam Denggi di Musim Banjir",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -22,17 +22,17 @@
     "id": 2,
     "bm": {
       "category": "PROGRAM JUALAN RAHMAH MADANI",
-      "date": "17 Julai 2026",
-      "title": "DUA SUSPEK KES BUNUH KANAK-KANAK DIREMAN TUJUH HARI",
-      "excerpt": "REMAN:Kedua-Dua Suspek Yang Tidak Memiliki Dokumen Pengenalan Diri Direman Selama Tujuh Hari Sehingga 24 Julai.",
+      "date": "20 Julai 2026",
+      "title": "PERTANDINGAN MEMANCING JADI IKON PELANCONGAN SUNGAI MELAKA",
+      "excerpt": "Bandaraya Melaka – Pertandingan Memancing Ikan Air Tawar yang dianjurkan sempena Festival Sungai Melaka 2026 merekod penyertaan teramai apabila men...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "17 Julai 2026",
-      "title": "DUA SUSPEK KES BUNUH KANAK-KANAK DIREMAN TUJUH HARI",
-      "excerpt": "REMAN:Kedua-Dua Suspek Yang Tidak Memiliki Dokumen Pengenalan Diri Direman Selama Tujuh Hari Sehingga 24 Julai.",
+      "date": "20 Julai 2026",
+      "title": "PERTANDINGAN MEMANCING JADI IKON PELANCONGAN SUNGAI MELAKA",
+      "excerpt": "Bandaraya Melaka – Pertandingan Memancing Ikan Air Tawar yang dianjurkan sempena Festival Sungai Melaka 2026 merekod penyertaan teramai apabila men...",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -41,17 +41,55 @@
     "id": 3,
     "bm": {
       "category": "PROGRAM JUALAN RAHMAH MADANI",
-      "date": "17 Julai 2026",
-      "title": "CUBAAN SELUDUP PETROL BERSUBSIDI GAGAL, DUA SUSPEK TERJUN KE BAKAU",
-      "excerpt": "RAMPAS: Sebanyak 360 Liter Petrol Bersubsidi Yang Dipercayai Cuba Diseludup Berjaya Dirampas Maritim Malaysia Dalam Operasi Di Perairan Sungai Sabine.",
+      "date": "20 Julai 2026",
+      "title": "KURSUS GOOD MANUFACTURING PRATICE (GMP)",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "17 Julai 2026",
-      "title": "CUBAAN SELUDUP PETROL BERSUBSIDI GAGAL, DUA SUSPEK TERJUN KE BAKAU",
-      "excerpt": "RAMPAS: Sebanyak 360 Liter Petrol Bersubsidi Yang Dipercayai Cuba Diseludup Berjaya Dirampas Maritim Malaysia Dalam Operasi Di Perairan Sungai Sabine.",
+      "date": "20 Julai 2026",
+      "title": "KURSUS GOOD MANUFACTURING PRATICE (GMP)",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 4,
+    "bm": {
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "20 Julai 2026",
+      "title": "KEMPEN DERMA DARAH",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "20 Julai 2026",
+      "title": "KEMPEN DERMA DARAH",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 5,
+    "bm": {
+      "category": "Komunikasi Strategik",
+      "date": "20 Julai 2026",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "20 Julai 2026",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
