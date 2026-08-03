@@ -2,18 +2,18 @@
   {
     "id": 1,
     "bm": {
-      "category": "RUNDINGAN PERTAMA PERSEKUTUAN TANAH MELAYU-BRUNEI MENGENAI GAGASAN MALAYSIA",
-      "date": "31 Julai 2026",
-      "title": "KENALI UBAT ANDA",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "3 Ogos 2026",
+      "title": "‘PERMATA’ MELAKA BERJAYA DISERU BUKA LEBIH BANYAK PELUANG UNTUK ANAK...",
+      "excerpt": "Ayer Keroh – Anak Melaka yang telah berjaya mencipta kejayaan dalam pelbagai bidang diseru menggunakan pengalaman, kepakaran serta jaringan yang di...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "31 Julai 2026",
-      "title": "KENALI UBAT ANDA",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "date": "3 Ogos 2026",
+      "title": "‘PERMATA’ MELAKA BERJAYA DISERU BUKA LEBIH BANYAK PELUANG UNTUK ANAK...",
+      "excerpt": "Ayer Keroh – Anak Melaka yang telah berjaya mencipta kejayaan dalam pelbagai bidang diseru menggunakan pengalaman, kepakaran serta jaringan yang di...",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -21,8 +21,8 @@
   {
     "id": 2,
     "bm": {
-      "category": "RUNDINGAN PERTAMA PERSEKUTUAN TANAH MELAYU-BRUNEI MENGENAI GAGASAN MALAYSIA",
-      "date": "31 Julai 2026",
+      "category": "Komunikasi Strategik",
+      "date": "3 Ogos 2026",
       "title": "PROGRAM JUALAN RAHMAH MADANI",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
@@ -30,7 +30,7 @@
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "31 Julai 2026",
+      "date": "3 Ogos 2026",
       "title": "PROGRAM JUALAN RAHMAH MADANI",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
@@ -40,18 +40,18 @@
   {
     "id": 3,
     "bm": {
-      "category": "RUNDINGAN PERTAMA PERSEKUTUAN TANAH MELAYU-BRUNEI MENGENAI GAGASAN MALAYSIA",
-      "date": "31 Julai 2026",
-      "title": "HEDONISME DI KALANGAN MAHASISWA, KESAN, IMPLIKASI DAN DI MANA SILAPNYA",
-      "excerpt": "Budaya hedonisme adalah satu gaya hidup yang mengejar keseronokan, hiburan dan kepuasan segera tanpa fikir kesan jangka panjang. Budaya ni kian har...",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "3 Ogos 2026",
+      "title": "DERMA DARAH PENANG",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "31 Julai 2026",
-      "title": "HEDONISME DI KALANGAN MAHASISWA, KESAN, IMPLIKASI DAN DI MANA SILAPNYA",
-      "excerpt": "Budaya hedonisme adalah satu gaya hidup yang mengejar keseronokan, hiburan dan kepuasan segera tanpa fikir kesan jangka panjang. Budaya ni kian har...",
+      "date": "3 Ogos 2026",
+      "title": "DERMA DARAH PENANG",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -59,18 +59,37 @@
   {
     "id": 4,
     "bm": {
-      "category": "Komunikasi Strategik",
-      "date": "31 Julai 2026",
-      "title": "RUNDINGAN PERTAMA PERSEKUTUAN TANAH MELAYU-BRUNEI MENGENAI GAGASAN MALAYSIA",
-      "excerpt": "Pada 09 Julai (Isnin) dalam tahun 1962, satu rundingan mengenai gagasan Malaysia di antara Kerajaan Persekutuan Tanah Melayu dan Brunei telah diada...",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "3 Ogos 2026",
+      "title": "JURUJUAL RUGI RM290,910 DIPERDAYA SKIM PELABURAN PALSU",
+      "excerpt": "Keghairahan seorang jurujual sebuah butik pakaian berjenama menggadai barangan kemasnya untuk meraih keuntungan berganda membawa padah apabila dia ...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "31 Julai 2026",
-      "title": "RUNDINGAN PERTAMA PERSEKUTUAN TANAH MELAYU-BRUNEI MENGENAI GAGASAN MALAYSIA",
-      "excerpt": "Pada 09 Julai (Isnin) dalam tahun 1962, satu rundingan mengenai gagasan Malaysia di antara Kerajaan Persekutuan Tanah Melayu dan Brunei telah diada...",
+      "date": "3 Ogos 2026",
+      "title": "JURUJUAL RUGI RM290,910 DIPERDAYA SKIM PELABURAN PALSU",
+      "excerpt": "Keghairahan seorang jurujual sebuah butik pakaian berjenama menggadai barangan kemasnya untuk meraih keuntungan berganda membawa padah apabila dia ...",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 5,
+    "bm": {
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "3 Ogos 2026",
+      "title": "KENALI UBAT ANDA",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "3 Ogos 2026",
+      "title": "KENALI UBAT ANDA",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
