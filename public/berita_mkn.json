@@ -2,18 +2,18 @@
   {
     "id": 1,
     "bm": {
-      "category": "PERLU KE SEMUA RAKYAT MALAYSIA BERTUKAR KEPADA MYKAD GENERASI BAHARU?",
-      "date": "14 September 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "15 September 2026",
+      "title": "CADANGAN PINDAH PASAR BESAR KK KELUAR DARI KAWASAN BANDAR",
+      "excerpt": "TINJAU: Hajiji semasa membuat tinjauan ke tapak lokasi yang dicadangkan.",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "14 September 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "date": "15 September 2026",
+      "title": "CADANGAN PINDAH PASAR BESAR KK KELUAR DARI KAWASAN BANDAR",
+      "excerpt": "TINJAU: Hajiji semasa membuat tinjauan ke tapak lokasi yang dicadangkan.",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -21,18 +21,18 @@
   {
     "id": 2,
     "bm": {
-      "category": "PERLU KE SEMUA RAKYAT MALAYSIA BERTUKAR KEPADA MYKAD GENERASI BAHARU?",
-      "date": "14 September 2026",
-      "title": "TIPS KESELAMATAN AKTIVITI SUKAN LASAK",
-      "excerpt": "TIPS KESELAMATAN AKTIVTI SUKAN LASAK (BERBASIKAL, BUKIT, MENDAKI, ATV, BUNGEE JUMPING)",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "15 September 2026",
+      "title": "SUSUNAN KEUTAMAAN BENDERA",
+      "excerpt": "Tahukah anda, susunan bendera mempunyai tatacara dan keutamaannya tersendiri?",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "14 September 2026",
-      "title": "TIPS KESELAMATAN AKTIVITI SUKAN LASAK",
-      "excerpt": "TIPS KESELAMATAN AKTIVTI SUKAN LASAK (BERBASIKAL, BUKIT, MENDAKI, ATV, BUNGEE JUMPING)",
+      "date": "15 September 2026",
+      "title": "SUSUNAN KEUTAMAAN BENDERA",
+      "excerpt": "Tahukah anda, susunan bendera mempunyai tatacara dan keutamaannya tersendiri?",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -40,17 +40,17 @@
   {
     "id": 3,
     "bm": {
-      "category": "PERLU KE SEMUA RAKYAT MALAYSIA BERTUKAR KEPADA MYKAD GENERASI BAHARU?",
-      "date": "14 September 2026",
-      "title": "AKTIVITI PENGUATKUASAAN KPDN",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "15 September 2026",
+      "title": "OPERASI BERSEPADU",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "14 September 2026",
-      "title": "AKTIVITI PENGUATKUASAAN KPDN",
+      "date": "15 September 2026",
+      "title": "OPERASI BERSEPADU",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
@@ -59,18 +59,37 @@
   {
     "id": 4,
     "bm": {
-      "category": "Komunikasi Strategik",
-      "date": "14 September 2026",
-      "title": "PERLU KE SEMUA RAKYAT MALAYSIA BERTUKAR KEPADA MYKAD GENERASI BAHARU?",
-      "excerpt": "Pemegang MyKad sedia ada tidak perlu menukar MyKad semata-mata kerana pengenalan MyKad Generasi Baharu, selagi kad tersebut masih berada dalam kead...",
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "15 September 2026",
+      "title": "PROGRAM HARI KEBANGSAAN",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
-      "date": "14 September 2026",
-      "title": "PERLU KE SEMUA RAKYAT MALAYSIA BERTUKAR KEPADA MYKAD GENERASI BAHARU?",
-      "excerpt": "Pemegang MyKad sedia ada tidak perlu menukar MyKad semata-mata kerana pengenalan MyKad Generasi Baharu, selagi kad tersebut masih berada dalam kead...",
+      "date": "15 September 2026",
+      "title": "PROGRAM HARI KEBANGSAAN",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 5,
+    "bm": {
+      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "date": "15 September 2026",
+      "title": "PROGRAM JIWA @ KOMUNITI MADANI",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "15 September 2026",
+      "title": "PROGRAM JIWA @ KOMUNITI MADANI",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
