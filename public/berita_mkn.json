@@ -2,9 +2,9 @@
   {
     "id": 1,
     "bm": {
-      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "category": "LATIHAN KEBAKARAN",
       "date": "6 Oktober 2026",
-      "title": "INFO ON WHEELS (IOW)",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
@@ -12,7 +12,7 @@
     "en": {
       "category": "Strategic Communication",
       "date": "6 Oktober 2026",
-      "title": "INFO ON WHEELS (IOW)",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
@@ -21,18 +21,18 @@
   {
     "id": 2,
     "bm": {
-      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "category": "LATIHAN KEBAKARAN",
       "date": "6 Oktober 2026",
-      "title": "LATIHAN KEBAKARAN",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "DISIPLIN DI JALAN RAYA: KESELAMATAN BERMULA DARIPADA KITA",
+      "excerpt": "Patuhi lampu isyaratmerupakan salah satu peraturan jalan raya paling asas yang wajib dipatuhi oleh setiap pemandu dan penunggang di Malaysia. Kegag...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
       "date": "6 Oktober 2026",
-      "title": "LATIHAN KEBAKARAN",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "DISIPLIN DI JALAN RAYA: KESELAMATAN BERMULA DARIPADA KITA",
+      "excerpt": "Patuhi lampu isyaratmerupakan salah satu peraturan jalan raya paling asas yang wajib dipatuhi oleh setiap pemandu dan penunggang di Malaysia. Kegag...",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -40,18 +40,18 @@
   {
     "id": 3,
     "bm": {
-      "category": "Komunikasi Strategik",
+      "category": "LATIHAN KEBAKARAN",
       "date": "6 Oktober 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "KEMPEN KESELAMATAN JALAN RAYA: PASTIKAN PAKAI TOPI KELEDAR YANG BER...",
+      "excerpt": "Keselamatan jalan raya merupakan tanggungjawab bersama yang menuntut kesedaran tinggi daripada semua pemandu dan penunggang motosikal.Jabatan Penga...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
       "date": "6 Oktober 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "KEMPEN KESELAMATAN JALAN RAYA: PASTIKAN PAKAI TOPI KELEDAR YANG BER...",
+      "excerpt": "Keselamatan jalan raya merupakan tanggungjawab bersama yang menuntut kesedaran tinggi daripada semua pemandu dan penunggang motosikal.Jabatan Penga...",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -59,18 +59,37 @@
   {
     "id": 4,
     "bm": {
-      "category": "PROGRAM JUALAN RAHMAH MADANI",
+      "category": "LATIHAN KEBAKARAN",
       "date": "6 Oktober 2026",
-      "title": "AKTIVITI PENGUATKUASAAN KPDN",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "LOGHAT UNIK TERENGGANU",
+      "excerpt": "Loghat Terengganu atau “Cakak Tranung” terkenal dengan ciri khas seperti penukaran bunyi hujung kepada sengau “-ng”, penggunaan kata penegas (pengu...",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
       "date": "6 Oktober 2026",
-      "title": "AKTIVITI PENGUATKUASAAN KPDN",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "LOGHAT UNIK TERENGGANU",
+      "excerpt": "Loghat Terengganu atau “Cakak Tranung” terkenal dengan ciri khas seperti penukaran bunyi hujung kepada sengau “-ng”, penggunaan kata penegas (pengu...",
+      "tag": "Current",
+      "tagColor": "#0ea5e9"
+    }
+  },
+  {
+    "id": 5,
+    "bm": {
+      "category": "LATIHAN KEBAKARAN",
+      "date": "6 Oktober 2026",
+      "title": "JIMAT TENAGA ATAU CEKAP TENAGA – SAMA KE?",
+      "excerpt": "Ramai mungkin menganggap kedua-duanya sama, tetapi sebenarnya ada perbezaan.",
+      "tag": "Semasa",
+      "tagColor": "#0ea5e9"
+    },
+    "en": {
+      "category": "Strategic Communication",
+      "date": "6 Oktober 2026",
+      "title": "JIMAT TENAGA ATAU CEKAP TENAGA – SAMA KE?",
+      "excerpt": "Ramai mungkin menganggap kedua-duanya sama, tetapi sebenarnya ada perbezaan.",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
