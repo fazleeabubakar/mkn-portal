@@ -2,9 +2,9 @@
   {
     "id": 1,
     "bm": {
-      "category": "AKTIVITI PENGUATKUASAAN",
+      "category": "PROGRAM TUKAR TOPI KELEDAR",
       "date": "9 Oktober 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "title": "PEMBENTANGAN BELANJAWAN 2027",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
@@ -12,7 +12,7 @@
     "en": {
       "category": "Strategic Communication",
       "date": "9 Oktober 2026",
-      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "title": "PEMBENTANGAN BELANJAWAN 2027",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
@@ -21,18 +21,18 @@
   {
     "id": 2,
     "bm": {
-      "category": "AKTIVITI PENGUATKUASAAN",
+      "category": "PROGRAM TUKAR TOPI KELEDAR",
       "date": "9 Oktober 2026",
-      "title": "KUMPULAN PENGIRING TENTERA LAUT CHINA TIBA DI KOTA KINABALU",
-      "excerpt": "TIBA: Salah satu kapal merapat di Jeti TLDM Sepanggar.",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
       "date": "9 Oktober 2026",
-      "title": "KUMPULAN PENGIRING TENTERA LAUT CHINA TIBA DI KOTA KINABALU",
-      "excerpt": "TIBA: Salah satu kapal merapat di Jeti TLDM Sepanggar.",
+      "title": "PROGRAM JUALAN RAHMAH MADANI",
+      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -40,18 +40,18 @@
   {
     "id": 3,
     "bm": {
-      "category": "AKTIVITI PENGUATKUASAAN",
+      "category": "PROGRAM TUKAR TOPI KELEDAR",
       "date": "9 Oktober 2026",
-      "title": "PROGRAM PEMERKASAAN BUDAYA HIDUP SIHAT",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "KUMPULAN PENGIRING TENTERA LAUT CHINA TIBA DI KOTA KINABALU",
+      "excerpt": "TIBA: Salah satu kapal merapat di Jeti TLDM Sepanggar.",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
     },
     "en": {
       "category": "Strategic Communication",
       "date": "9 Oktober 2026",
-      "title": "PROGRAM PEMERKASAAN BUDAYA HIDUP SIHAT",
-      "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
+      "title": "KUMPULAN PENGIRING TENTERA LAUT CHINA TIBA DI KOTA KINABALU",
+      "excerpt": "TIBA: Salah satu kapal merapat di Jeti TLDM Sepanggar.",
       "tag": "Current",
       "tagColor": "#0ea5e9"
     }
@@ -59,9 +59,9 @@
   {
     "id": 4,
     "bm": {
-      "category": "AKTIVITI PENGUATKUASAAN",
+      "category": "PROGRAM TUKAR TOPI KELEDAR",
       "date": "9 Oktober 2026",
-      "title": "PROGRAM TUKAR TOPI KELEDAR",
+      "title": "PROGRAM PEMERKASAAN BUDAYA HIDUP SIHAT",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
@@ -69,7 +69,7 @@
     "en": {
       "category": "Strategic Communication",
       "date": "9 Oktober 2026",
-      "title": "PROGRAM TUKAR TOPI KELEDAR",
+      "title": "PROGRAM PEMERKASAAN BUDAYA HIDUP SIHAT",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
@@ -78,9 +78,9 @@
   {
     "id": 5,
     "bm": {
-      "category": "AKTIVITI PENGUATKUASAAN",
+      "category": "Komunikasi Strategik",
       "date": "9 Oktober 2026",
-      "title": "KUNJUNGAN HORMAT",
+      "title": "PROGRAM TUKAR TOPI KELEDAR",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Semasa",
       "tagColor": "#0ea5e9"
@@ -88,7 +88,7 @@
     "en": {
       "category": "Strategic Communication",
       "date": "9 Oktober 2026",
-      "title": "KUNJUNGAN HORMAT",
+      "title": "PROGRAM TUKAR TOPI KELEDAR",
       "excerpt": "DASAR KESELAMATAN NEGARA (DKN) 2026-2030",
       "tag": "Current",
       "tagColor": "#0ea5e9"
